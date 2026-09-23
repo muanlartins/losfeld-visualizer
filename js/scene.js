@@ -16,6 +16,7 @@ export const COLORS = {
   roll: 0xff8a2b,
   stick: 0x2e8bff,
   spin: 0xeaf1ff,
+  heading: 0xffd23d,
 };
 
 // Points on the hitbox that can be traced, as signs along (forward, up, right).
@@ -106,7 +107,8 @@ export function createStage(canvas, { onOrbit }) {
   };
   car.add(inputArrows.roll, inputArrows.stick);
   const spinAxis = createSpinAxis();
-  scene.add(spinAxis);
+  const headingArrow = createHeadingArrow();
+  scene.add(spinAxis, headingArrow);
 
   const trails = new Map(POINTS.map((point) => [point.id, createTrail(point.color)]));
   trails.forEach((trail) => scene.add(trail.line));
@@ -137,6 +139,7 @@ export function createStage(canvas, { onOrbit }) {
   }
 
   return {
+    camera,
     // Keeps the viewing angle, and moves the camera to what the mode is about.
     setMode(mode, state) {
       floor.position.set(0, 0, 0);
@@ -156,6 +159,7 @@ export function createStage(canvas, { onOrbit }) {
       const stickAxis = AXIS.pitch.clone().multiplyScalar(pitch).addScaledVector(AXIS.yaw, yaw);
       inputArrows.stick.set(stickAxis, view.arrows && airborne);
       spinAxis.set(state.position, state.spinAxis(), state.omega, view.arrows && airborne);
+      headingArrow.set(state.position, view.heading, view.arrows && airborne);
 
       hitbox.visible = view.hitbox;
       ball.visible = view.ball;
@@ -415,6 +419,26 @@ function createSpinAxis() {
     group.quaternion.setFromUnitVectors(Z, spin.direction);
     tip.visible = spin.nose > NOSE_SQUARE;
     turn.rotation.x = omega.dot(spin.direction) < 0 ? Math.PI : 0;
+  };
+  return group;
+}
+
+// Where the car is going on average (see heading.js): a thin arrow out of the car, from past the body.
+function createHeadingArrow() {
+  const group = new THREE.Group();
+  const material = new THREE.MeshBasicMaterial({ color: COLORS.heading, toneMapped: false });
+  const shaft = new THREE.Mesh(new THREE.CylinderGeometry(0.012, 0.012, 1.9, 8).rotateX(Math.PI / 2), material);
+  shaft.position.z = 1.45;
+  const tip = new THREE.Mesh(new THREE.ConeGeometry(0.055, 0.16, 16).rotateX(Math.PI / 2), material);
+  tip.position.z = 2.48;
+  group.add(shaft, tip);
+
+  const Z = new THREE.Vector3(0, 0, 1);
+  group.set = (position, heading, visible) => {
+    group.visible = visible && Boolean(heading);
+    if (!group.visible) return;
+    group.position.copy(position);
+    group.quaternion.setFromUnitVectors(Z, heading);
   };
   return group;
 }

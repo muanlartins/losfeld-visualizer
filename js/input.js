@@ -1,7 +1,7 @@
 // Reads the first connected gamepad (standard layout) and the keyboard.
 const DEADZONE = 0.1;
-export const BUTTON = { jump: 0, boost: 1, rollLeft: 4, rollRight: 5 };
-const KEY_BUTTONS = { Space: BUTTON.jump, ShiftLeft: BUTTON.boost, ShiftRight: BUTTON.boost, KeyQ: BUTTON.rollLeft, KeyE: BUTTON.rollRight };
+export const BUTTON = { jump: 0, boost: 1, rollLeft: 4, rollRight: 5, reset: 12 };
+const KEY_BUTTONS = { Space: BUTTON.jump, ShiftLeft: BUTTON.boost, ShiftRight: BUTTON.boost, KeyQ: BUTTON.rollLeft, KeyE: BUTTON.rollRight, KeyR: BUTTON.reset };
 const STICK_KEYS = ['KeyW', 'KeyA', 'KeyS', 'KeyD'];
 const BOUND = new Set([...Object.keys(KEY_BUTTONS), ...STICK_KEYS]);
 
@@ -53,6 +53,7 @@ export function createInput() {
         roll: buttons[BUTTON.rollRight] - buttons[BUTTON.rollLeft],
         jump: buttons[BUTTON.jump],
         boost: buttons[BUTTON.boost],
+        reset: buttons[BUTTON.reset],
       };
     },
   };
