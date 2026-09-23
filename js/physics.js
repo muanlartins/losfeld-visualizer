@@ -92,6 +92,18 @@ export class Car {
     this.settle = null;
   }
 
+  // A car that carries on from exactly this state, to look ahead without touching this one.
+  clone() {
+    return Object.assign(new Car(), this, {
+      position: this.position.clone(),
+      velocity: this.velocity.clone(),
+      orientation: this.orientation.clone(),
+      omega: this.omega.clone(),
+      onJump: () => {},
+      onLand: () => {},
+    });
+  }
+
   step(controls) {
     const jumpPressed = controls.jump && !this.controls.jump;
     this.controls = controls;

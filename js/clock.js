@@ -24,25 +24,31 @@ const mod = (a, n) => ((a % n) + n) % n;
 // turns the other way for that many ticks instead, one circle per revolution whatever the tempo: that turns with
 // the car, a stretch of the video's reverse clock. Then `resume` 'jump' sweeps it straight to where the clock is,
 // and 'catch' turns it twice as fast until it has caught up (the video's "catching the clock").
-export function createClockPlayer({ start, turn, tempo }) {
+export function createClockPlayer(clock, state = { lag: 0, last: null, move: null }) {
+  const { start, turn, tempo } = clock;
   const circles = TEMPOS[tempo];
   // How fast the stick falls behind while reversing, per unit of clock travel.
   const backwards = 1 + 1 / circles;
-  let lag = 0;
-  let last = null;
-  let move = null;
-  let current = { x: Math.cos(start), y: Math.sin(start) };
+  let { lag, last, move } = state;
+  let current = state.current ?? { x: Math.cos(start), y: Math.sin(start) };
 
+  // Once the move's revolution is settled, the clock travel at which it starts.
   function trigger(travel) {
     const offset = mod(turn * (move.at - start), TURN) + TURN * move.circle;
-    const revolution = move.revolution ?? Math.max(0, Math.ceil((travel - lag - offset) / (TURN * circles)));
-    return TURN * circles * revolution + offset + lag;
+    move.revolution = Math.max(move.revolution, Math.ceil((travel - lag - offset) / (TURN * circles)));
+    return TURN * circles * move.revolution + offset + lag;
   }
 
   return {
-    // Plays `move` in revolution `revolution`, counted from 0, or else in the next one it can still reach.
-    queue(next, revolution = null) {
+    // Plays `move` in revolution `revolution`, counted from 0, or in the first one after it that it can still reach.
+    // `move.revolution` then says which one that was.
+    queue(next, revolution = 0) {
       move = { resume: 'jump', ...next, revolution, phase: 'waiting', trigger: null };
+    },
+    // A player that carries on from here with the move under way, if any, but not one still waiting to start.
+    fork() {
+      const going = move && move.phase !== 'waiting' ? { ...move } : null;
+      return createClockPlayer(clock, { lag, last, move: going, current });
     },
     get move() {
       return move;
