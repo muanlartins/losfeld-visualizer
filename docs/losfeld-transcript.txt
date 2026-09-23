@@ -1,0 +1,2799 @@
+A Rocket League Thesis: The Losfeld Method of Directional Air-Roll, by losfeldRL
+https://www.youtube.com/watch?v=NTOBUcqFLVs
+English captions published with the video, fetched 2026-09-23. Timestamps are [minutes:seconds].
+The words are the author's; kept here as a reference for building this visualizer.
+
+[000:00] foreign
+[000:03] [Music] [Applause] [Music] [Applause]
+[000:15] I was young at the time but when it happened
+I knew things would never be the same [Music]
+[000:42] [Applause] [Music] me and two of my men we're
+doing our best to hold the lines
+[000:47] [Applause] [Music] I can still hear the Ricochet
+in the bounces it's like I'm still there sometimes
+[001:09] [Applause] I'm seeing things from that day
+[001:13] as we try to keep fighting their own decaying
+[Music] game cars cars were the air they are
+[001:34] just smashing my earbuds
+[001:35] the timer inexorably going down it was a long
+fight but what a fight [Music] of those things
+[001:43] Flash and then out of nowhere
+[001:47] our enemy took the ball and turned right towards
+the wall yeah that's it This is the End [Music]
+[002:07] from one second to the next it was in the
+air right under the ball but this was not
+[002:12] some no more sorry I'm getting emotionally
+you have to understand it from my perspective
+[002:18] I've never seen that in my life but it was
+wasn't human for me at the time he didn't
+[002:24] just carry the ball this was not some random
+badgeable he was twirling and twisting like
+[002:29] a tornado the kind of tornado to which you
+don't want to be near the kind of frightened
+[002:34] you because it reminds you that there is a
+God above us all powerful all-knowing I knew
+[002:40] nothing but a tiny piece of dust floating
+through life hoping not to be driven up his
+[002:46] nose by the wind for then he would sneeze
+the world to its end and so he turned and
+[002:52] turned and twisted and swelled intoxicating
+all of us with the skills is majestic beautiful
+[002:58] skills pure Magic it was like seeing the divine
+[003:02] [Music] [Applause]
+[003:03] [Music] death was coming to me and well committed
+with open up as my friends were being shut
+[003:04] down I was the last man standing to hold the
+fort and I would fight with my life to preserve
+[003:40] peace when does Asian hit me I thought to
+myself no I will not go down that easily on
+[004:22] mesmerized but I'm still living and until
+that war goes into my goal I'll defend it
+[004:23] with my life
+[004:24] [Applause] reset
+[004:25] [Music]
+[004:26] that was my first encounter with a Smurf and
+there was my first encounter with directional
+[004:28] Arrow
+[004:48] what the heck is directional air roll directional
+air roll is a flying mechanic used by many
+[004:55] which consists in giving one constant rolling
+input to your car while on the other hand
+[005:00] freely concentrating your directional inputs
+to control your car in the air it is very
+[005:06] impressive paradoxically very fluid much harder
+to read for the opponent and mostly very mostly
+[005:13] and I still can't stress that enough it gives
+you a [ __ ] ton of freedom in the game
+[005:19] which includes much much more fun and satisfaction
+while using this mechanic your car will constantly
+[005:27] roll on its longitudinal axis your lengthwise
+axis this one not this one it's the axis going
+[005:35] from the butt to your car to the head of your
+car the same acts as your car uses when you're
+[005:40] side flicking directional air roll as its
+name suggests requires you to only go One
+[005:46] Direction this means using left directional
+air roll or right directional air rule rather
+[005:52] than normal Arrow which is this you will have
+to make this choice and it is totally arbitrary
+[005:59] as much as doing a one-handed backhand in
+tennis or a two-handed backhand is neither
+[006:05] is better than the other and your choice will
+go where the preference of what you feel or
+[006:10] what you see will go I personally use left
+air roll again I don't know why I just chose
+[006:16] it as soon as I decided to learn I'll only
+talk about left air rollers right air roll
+[006:20] is the symmetrical opposite and you'll have
+if you choose to go for right arrow to do
+[006:25] that on your own as one side is already quite
+hard to explain as you will see later so while
+[006:30] pressing my left arrow button I will start
+flying my car and she will be constantly rotating
+[006:37] left like a tornado or a cork or a pig in
+the mud whatever sits your boot if it fits
+[006:42] the image this is directional air roll so
+what do people think about directional air
+[006:49] roll that's one hell of a debate yeah while
+many say you don't need it to be good at the
+[006:55] game not only will I say I disagree I'll also
+just say these people are either people who
+[007:02] can't aerol and talk without experience or
+they are directional error users and have
+[007:08] gained an extremely big amount of level whether
+it be mechanical or Vision wise ever since
+[007:13] they started using it and now have focused
+on different mechanics or again better vision
+[007:19] and speed leaving their Arrow so natural that
+they just take it for granted they can't seem
+[007:24] to remember how bad they used to be before
+they learned how to use it what actually happened
+[007:30] to them is that more than unlocking their
+mechanical skill cap they have also unlocked
+[007:36] thanks to air rule a better wider vision of
+the game less tunnily making them all around
+[007:41] better players why because they can put less
+energy into not missing that simple ball in
+[007:48] the air and more into okay that's my turn
+to go P3 you know let's not forget that these
+[007:53] people talk about the game as the ranked games
+and your reload was the only reference to
+[007:58] what being good at the game is and again I'll
+come back to this with my own opinion another
+[008:04] thing is that although many YouTubers have
+tried to teach it none of them have taken
+[008:09] the time and dedication to go in depth and
+in the end they just make the same video over
+[008:15] and over again promising you to give you this
+when they never actually do and I'm referencing
+[008:24] a very specific YouTuber here all but one
+one guy on YouTube has made a video and I'll
+[008:33] put the link in the description I hope it
+doesn't mind because he's literally the only
+[008:38] one to speak the truth about it this guy apart
+from me now is the only guy who wants you
+[008:45] to know how to air roll listen to him so to
+come back to what people think about directional
+[008:51] air rule other people will actually say that
+it's unteachable and that only empiricism
+[008:59] which is another word for experience can teach
+you in other words [ __ ]
+[009:07] in other words they'll claim that there's
+no specific method except for time and that
+[009:14] you will learn it in hundreds of hours ranging
+from 200 to maybe 700 hours no no no no no
+[009:22] no and here I go saying I believe this is
+[ __ ] there are a few things that I consider
+[009:28] wrongly believed about this game for instance
+the sport of Rocket league and that includes
+[009:33] your ranked games is different from the actual
+game another example would be directional
+[009:40] air roll is not unteachable but the ways himself
+proclaimed coaches of the game Teach it it's
+[009:46] just not truthful first of all if we can make
+all the things we can as human beings surely
+[009:51] we can find a way to analyze what is going
+on while air rolling in this wonderful but
+[009:56] yet on a much bigger scheme simple hobby after
+all it's a video game so to me either people
+[010:03] are being dishonest about that willing to
+teach it keeping the knowledge more or less
+[010:07] of a secret so that they can just keep baiting
+us into clicking on their new tutorial video
+[010:12] which anyhow is not going fine by me for if
+teaching should be financially rewarded knowledge
+[010:17] should be free to anyone or at least freely
+accessible or if you want to have faith in
+[010:22] Universal idealism we can hope that they just
+don't know how to teach it properly this would
+[010:28] then mean that amongst the best of the best
+and among those best the ones who wish they
+[010:33] could teach it no matter how talented it might
+be they would still have not found a proper
+[010:39] way to put all the pieces of information together
+in order to make it clear need guide about
+[010:45] how to learn directional air roll those same
+talented people who thanks to their mechanical
+[010:51] level have with these skills only been given
+by the game the sport and the audience the
+[010:57] legitimacy to properly say that a flying mechanic
+such as directional air ball is not only an
+[011:02] essential part of Rocket league but its reference
+as far as air control is concerned in other
+[011:08] words not only is it an essential part of
+the game it's also just how flying is supposed
+[011:14] to be done so the question is why has no one
+been able to explain and teach our role why
+[011:23] has no one made a method yet I have my own
+answer which is as follows because the method
+[011:29] is rarely if not ever based on an error an
+incorrect definition or idea or as we will
+[011:36] see later on a false constant or incorrect
+constant why then would I imply that there
+[011:42] is an error because everybody from players
+to developers mistake the reality of the concept
+[011:48] of the game which is car football with the
+truth of the idea of the game which is to
+[011:53] me remotely controlled juggling
+[011:59] in order to fully contemplate this idea let's
+talk about something that one might consider
+[012:04] philosophy don't be scared you don't need
+a PhD or to be plated to understand this let's
+[012:09] talk about an idea and a concept those two
+words are generally taken for granted such
+[012:16] as reality and truth because they work as
+siblings to be blunt a concept is always the
+[012:22] subject of an idea the idea is the father
+or the mother of many Concepts which follow
+[012:29] them and make them take place in reality here's
+a simple example to move many people quickly
+[012:35] and at the same time from one place to another
+that's an idea of a concept public transports
+[012:44] it's important to know that there is never
+a concept with no idea as the idea is what
+[012:49] I want and the concept is how do I get it
+I'm hungry is the idea I'm going to make myself
+[012:56] some pasta It's a concept as much as I'm gonna
+go out and go to McDonald's is another concept
+[013:02] one doesn't usually think about a way to get
+something without wanting that something first
+[013:08] how do I get more money as an idea creating
+my new startup is a concept such as playing
+[013:13] Lottery becoming a pro poker player stealing
+marrying a rich person becoming a famous YouTuber
+[013:20] slash streamer which is quite a modern concept
+obviously or actually working hard and with
+[013:25] honesty which is not the simplest but the
+one which has the most win rate per se if
+[013:29] I want to keep speaking as a gamer you get
+the idea pun intended now this is why I say
+[013:35] people are wrong about the game psionics created
+a concept car soccer but mistook it for an
+[013:43] idea actual rocket League let's take a step
+back for a minute this is going to be the
+[013:49] rant section of the video [Applause] what
+is my problem in the last few months there's
+[013:59] been something off with the game ever since
+it went free to play people have come to play
+[014:04] it a lot and suddenly quit it psionics has
+even made the choice to remove the number
+[014:09] of online players with a simple okay super
+great ladder and if this is not being scared
+[014:15] that people would start considering the game
+Dead I don't know what is also there's nothing
+[014:20] nothing more frustrating as a new player to
+be told that in order to have fun at the game
+[014:25] you'll have to try hard your life out of it
+take hundreds of hours to learn something
+[014:29] then another couple hundred hours to implement
+it in the game and two last hundreds to actually
+[014:35] be consistent there is nothing more frustrating
+than seeing mechanical moves made by pros
+[014:41] and other talented people and knowing you
+will never never be able to do the same even
+[014:47] remotely so people stop playing the game unless
+they fall in love with it like I did and many
+[014:53] others I've been playing tennis since I was
+six I'll never be fedra and that's fine because
+[014:59] I can at least hit the ball well enough to
+have fun in the sport but this does not translate
+[015:03] to Rocket League unless you're stuck to the
+ground or do some shitty Aerials the game
+[015:09] itself tells us that we will never succeed
+how psionics has not seen or that I'm talking
+[015:15] about is beyond me and how they've never ever
+done anything to teach some current aerial
+[015:21] movements such as directional air rule is
+also beyond me the reason I'm the one to do
+[015:27] it also is beyond me people deserve to be
+given knowledge especially by the ones who
+[015:33] create the game Gamers will never ever ever
+put that much time into learning unless they
+[015:40] are helped they will switch to other games
+leaving the current one full of passionate
+[015:45] players who literally play almost nothing
+else I doubt this is how a game thrives this
+[015:52] is how it survives but surviving isn't truly
+living is it please God is it is it I'm good
+[016:00] I am good I'm good my belief is that if people
+were giving the chance to learn correctly
+[016:08] in a few years rocket league would literally
+be a family-friendly game like freaking monopolies
+[016:15] in the sense that it holds in itself so much
+richness and potential anyone would want to
+[016:20] play it the same way the majority of the population
+uses Facebook or Twitter the way the twitch
+[016:26] is now the mainstreaming service people use
+to both stream and watch games discussions
+[016:31] workers doing the craft Etc we can also talk
+about all the bugs in the game such as the
+[016:37] famous my teammate left the group for no reason
+or the infamous my team had forfeited the
+[016:42] tournament so did I I then quit the game and
+for some reason I'm considered a lever a quitter
+[016:49] and I'm therefore banned from playing tournaments
+as well as the simple but not lesser annoying
+[016:54] shitty servers here and there and don't get
+me started on the fact that we don't even
+[016:58] have a hitbox for every car how shitty is
+that or finally the infinite amount of unfairness
+[017:04] in the items whether it's because they're
+just shitty in general or that you use all
+[017:09] your 12K tournament points to get something
+as shitty as a level 15 rocket pass user would
+[017:14] get I don't find it normal that all we care
+about is having white titanium octanes do
+[017:20] you the simple fact that other players and
+content creators such as back as who gave
+[017:27] us his wonderful mod to fool around with and
+learn much quicker thanks to the Fast Response
+[017:31] of the ball for instance or lethamir who's
+created more than 100 Maps which are not only
+[017:37] on the schema car circuit map can help us
+realize that if the game we have can be played
+[017:43] on other Maps than the soccer looking map
+which has been decided to be the reference
+[017:47] game mode rocket league is not in its Essence
+car soccer it was just chosen so without thinking
+[017:56] in order to get the pro Gamers and the esport
+going after super acrobatic rocker power battle
+[018:01] cars was updated to the game that we now have
+and which needed regulated rules and maps
+[018:07] to make an esport career possible out of it
+this was the rent part as well as a clarification
+[018:14] that I didn't see any content creators ranting
+about when the game was dying a few months
+[018:19] ago talk about or just even realize by the
+way being a pro player or a talented freestyler
+[018:26] by no way means that you know what the game
+needs or what the Casual player feels far
+[018:31] from it take it from someone who's neither
+a pro nor especially talented but still knows
+[018:36] how to use directional air rule by the way
+number two being able to play any custom maps
+[018:43] with your friends easily which is a dream
+of mine will not oh so ever be fun if nobody
+[018:48] but you can actually have fun in the air it's
+not enough to say we need more content in
+[018:54] the game it's not enough for Content creators
+to say we need more maps from psionics or
+[018:59] within more events if there is Never Enough
+content to make people play the game maybe
+[019:04] it's because the game is unplayable especially
+without the right idea of what it is which
+[019:09] is my point and without a minimum of the fun
+mechanics that I believe anyone should be
+[019:14] taught to enjoy it hence this video and to
+the content creators I'm sorry to say that
+[019:21] but personally I find the videos more boring
+than ever it is not totally your fault but
+[019:27] it kind of is if you can be passionate about
+something and still be wrong about it to me
+[019:32] the thought is also yours you can't be that
+blind you have your own role and responsibility
+[019:37] in this you can't just wash and repost the
+same old videos over and over again you can't
+[019:42] just watch other content creators videos and
+make a video which is just you commenting
+[019:48] on the other content creators video how is
+that not boring had you had the same idea
+[019:54] as me when I say the game is just not about
+foot car and that there's an actual dire need
+[020:00] to teach anyone you can about at least directional
+air roll in an honest and exhaustive fashion
+[020:06] you would have much more content to work with
+I can guarantee it because many more people
+[020:11] would be playing the game many more people
+would want to create their own maps and that
+[020:15] would be a great thing for you too many videos
+claim to teach how to air rule but then tell
+[020:21] you some easy [ __ ] that your own logic
+would get to at some point and that doesn't
+[020:26] help you in the slightest as far as mechanical
+abilities and concerns like oh you have to
+[020:31] get to the ball and you have to get the ball
+to the wall then boost a little and then jump
+[020:37] and just catch the ball in the air while air
+rolling holy mother that's so easy I never
+[020:41] thought of it and then they proceed to say
+I can't really teach you about how to air
+[020:46] roll this is something you're gonna have to
+figure out for yourself I did a great impression
+[020:50] of someone here and then they ask you to leave
+a like And subscribe while still promising
+[020:54] you in the next video that they will tell
+you the secret on how to air roll like a pro
+[021:00] and still never ever say anything remotely
+close to what it actually is just watch some
+[021:06] of those videos and check for yourself the
+correlation between the number of views and
+[021:10] the like slash dislikes on it it's clear that
+the information given not only is useless
+[021:16] it's also straight up insulting in fact I
+know one of them a rather Young fella whom
+[021:22] I won't call out but should feel aimed at
+for I've already referenced him once so far
+[021:27] who literally promises in every of his aerial
+videos that he's going to teach us how to
+[021:32] do it but then simply repeats over and over
+again how to turn left and right which is
+[021:38] still manages to incorrectly present people
+want to Errol because it's fun it's good looking
+[021:44] they believe it's going to make them feel
+better about themselves in the game and they're
+[021:48] right and this is how pros play the game and
+in any sport or activity the pros are the
+[021:54] ones who make the reference the status quo
+of what physical and or intellectual abilities
+[022:00] are and how this activity or sport should
+be executed I see all the pros air roll it
+[022:06] means to me and hopefully everybody that air
+rolling is how the game should be played Pro
+[022:13] players the most talented players in the game
+are also the one who dictates how to play
+[022:18] it keep in mind that this game was not supposed
+to be playing on the ground this is not FIFA
+[022:23] otherwise we wouldn't have gravity or boost
+but also keep in mind that flying straight
+[022:28] up with barely any control of feeling is just
+also not the right way to do it and will eventually
+[022:33] make you quit as you realize you'll never
+do anything better to me that is mostly why
+[022:40] the game is so called dying not any other
+reason give the players the knowledge to accomplish
+[022:46] things they find mesmerizing so they get satisfaction
+from playing the game because know your rank
+[022:52] and playing around games is not going to keep
+the passion burning on the other hand getting
+[022:58] actually good is always better than winning
+some meaningless games in points that will
+[023:03] have vanished at your next losing streak because
+with no skill winning a game is basically
+[023:08] more or less just a fluke if you're good enough
+you will not ping-pong between wins and losses
+[023:14] until you get the rank you actually deserve
+according to your level no more excuses all
+[023:21] right now let me take a step away from the
+necessary rant and a step further into this
+[023:26] video by acknowledging something which ensues
+from the latter and penultimate arguments
+[023:32] rocket league is by definition a video game
+but by Essence a skill game a toy why do I
+[023:41] say so why do I believe I'm right why do I
+believe it should as soon as possible for
+[023:45] the sake of the game status and The Gamers
+be validated here we go firstly quickly going
+[023:52] on the same line as my former chapter the
+game of Rocket league as we know it and as
+[023:57] it is competitively played is in my opinion
+just one of the many concepts of the game
+[024:02] of its actual idea and thus bigger potential
+as far as number of players and playability
+[024:08] is concerned which is why rocket league is
+currently stuck for the reasons that I gave
+[024:13] just before this very chapter essentially
+that content creators seem to be out of breath
+[024:18] for Content but still looking for that like
+And subscribe we can't blame them want to
+[024:22] live off of it and also because the game is
+stuck in the player based numbers because
+[024:27] not enough people can get good enough to start
+having fun and wanting to try harder a bit
+[024:31] more highly mechanical and ranked player excluded
+from this point as my point literally is that
+[024:37] if anyone knew how to air rule without having
+to try out the game for years and hundreds
+[024:41] of hours rocket league would be as big as
+League of Legends in terms of streaming esport
+[024:47] production and fame player based Etc League
+of Legend since being perhaps one of the best
+[024:52] references one could make comparisons with
+as far as this video is concerned though the
+[024:57] theory is the idea the concept is the method
+keep Faith we're almost there now for the
+[025:03] actual point of this chapter I wish to make
+what is a skill game and why is rocket League
+[025:07] one of them well the simple definition which
+you could find on Wikipedia would be and I
+[025:11] quote the French Wiki and that a skill game
+is a game that values the player's dexterity
+[025:17] and the outcome is decided by this latter
+as I previously stated I believe the idea
+[025:23] or the essence to use the word correctly of
+Rocket league is remotely controlled juggling
+[025:30] in other words a skill game the main point
+of a skill game is that its gameplay relies
+[025:36] solely on the player's mechanics and the map
+or the real word terrain has no influence
+[025:42] on the gameplay whatsoever if I juggle in
+my room I can also juggle in the elevator
+[025:48] and the street in a classroom in my shower
+if I can manage you get the picture one of
+[025:55] the best examples I could think of while reflecting
+on this was skateboarding you could do skateboard
+[026:00] tricks in the streets on the pavement in your
+living room in a skate park basically wherever
+[026:05] you can stand on your board can also be an
+opportunity for you to do some tricks if I
+[026:11] can play rocket league in a foot car map or
+Hoops or in aerial trainings or rings map
+[026:16] as long as I have my car in the ball which
+you don't have in rings but the car control
+[026:20] mechanics are sufficient in this case then
+it means to me that it's a skill game because
+[026:25] the terrain is subject to the gameplay the
+gameplay being the idea that car and ball
+[026:30] control are more important mechanics than
+the map shape or size or the way in which
+[026:35] scoring is done application point one might
+never ever play current real games in foot
+[026:42] car mode but only be either a freestyler or
+only play custom slash training map such as
+[026:48] ever sax or rings map and still consider themselves
+as playing rocket League if you play tennis
+[026:56] I'm sticking with the same example that I
+know of you can't consider you play tennis
+[027:00] because you love training serves a volley
+that's training in order to play it's not
+[027:05] actually playing for that you would at least
+need a court in rocket League you can consider
+[027:11] having gameplay by just playing training custom
+maps let me rephrase all of this in a nutshell
+[027:16] a skill game has its gameplay Live and Not
+only evolve through the player's level of
+[027:22] mechanical control if it's self-sufficient
+it's a skill game the environment should be
+[027:28] adding to what you do not constraining it
+ruggedly couldn't be a better example of this
+[027:35] and to enlight this point I'll just finish
+by saying three analogies again with skateboarding
+[027:39] first that to me directional air roll is as
+important as the ollie if you want to start
+[027:45] doing tricks obviously I'm thinking about
+flat skateboarding not vertical if you caught
+[027:49] Ollie how are you going to be good at kickflips
+second that you hear the same streak of combos
+[027:55] in rocket league as you can hear in another
+skill game or sport for instance here's a
+[028:00] ceiling Pogo Plan B catch into air dribble
+musty flick backboard flipper shed goal
+[028:05] s [Music]
+[028:15] that's for Rocket league and in skateboard
+here's a double flip nose manual shove it
+[028:23] manual front shove out it has less words in
+it but it's probably a shot to make and here's
+[028:29] some more clips of skateboard ah this is this
+I don't know what this is this is this yes
+[028:36] that's impressive that's cool
+[028:42] that's impressive and cool and that just actually
+hurt my ankles finally that the same amount
+[028:50] of satisfaction comes from Landing your first
+directional air roll air dribble or Air drag
+[028:55] or your first flip reset as there is when
+Landing your first Ollie or kickflip on a
+[029:00] skateboard this leads me to one of the most
+important points of my incoming Theory slash
+[029:06] method feeling getting close to the method
+now is we're going to finish up with this
+[029:13] almost theoretical part of the video by talking
+about a Paramount Point feeling not only does
+[029:20] it prove my former point that rocket league
+is a skill game but it is the core of the
+[029:24] method I invented and will share with you
+right after this paragraph This last point
+[029:29] I want to make is so that we keep understanding
+one another me the guy in the video giving
+[029:33] information and you the person on the other
+side of the screen receiving this information
+[029:38] in order to go into the method let's lay down
+right now the fact that we will create our
+[029:42] own terminology terminology if you're not
+sure what it means is basically a dictionary
+[029:47] full of lexical Fields jargons used to enunciate
+and Define words ideas Notions in a clear
+[029:54] repeatable and recognizable way for a specific
+subject it is made to ensure and or enhance
+[030:00] communication we will hands create together
+our own terminology so that you always know
+[030:06] what I'm talking about or what I'm merely
+referencing yeah all right good first of all
+[030:11] apart from some coaches who miss the right
+calling many people agree to say that you
+[030:15] cannot learn every single input of your joystick
+and and I would agree with them let's say
+[030:21] for the sake of the argument that the joystick
+is a circle and we can divide the circle into
+[030:25] eight equal parts up down left right and the
+diagonals that's eight parts of the joystick
+[030:32] and also eight part for the rotation that
+the car does when you're air rolling add to
+[030:36] that the different perspective that you get
+when you're using ball Cam and you can simply
+[030:41] understand how wrinkled your brain is going
+to be so that's what a few hundreds of hours
+[030:46] of learning by heart would give you which
+is called empiricism and I'm not sure I'm
+[030:52] willing to do that are you so let's finish
+this up by listening one last time to a philosophical
+[030:58] saying by Emmanuel kantz this time experience
+without theory is blind but Theory without
+[031:06] experiences me intellectual play in rocket
+League we would go the other way around Theory
+[031:10] without experience is mere intellectual play
+that's what I've been doing all this time
+[031:15] but experience without theory is blind and
+that's what many players have been doing for
+[031:20] so long in the game we're going to use both
+experience and theory and we're going to try
+[031:28] to do it the right way which is the Smart
+Way which is using both you know what just
+[031:36] for the heck of it let's take a closer look
+into what the car does in the air while pressing
+[031:41] air Rule and your joystick get something to
+drink that will allow you to focus while not
+[031:46] being frustrated because this is going to
+hurt a little I would suggest chamomile tea
+[031:50] with a bit of lemon juice and honey tornadoes
+spin and reverse tornado spin let's talk about
+[031:56] those many people have done videos about them
+many people have talked about them in a very
+[032:01] specific way but at the same time to me they
+all kind of say the same thing I'm going to
+[032:07] talk about this in a more detailed fashion
+a tornado spin is just the action of using
+[032:13] your right part of the joystick and keeping
+the input there alright as soon as you change
+[032:18] the input it's not per se a tornado spin second
+important note as soon as you use air roll
+[032:26] the joystick is going to respond as though
+your car was tilted so if you don't use air
+[032:32] roll and you put your joystick up your nose
+is going to go down like a plane yeah but
+[032:38] as soon as you use air Roll Just because you
+put your joystick up does not mean that your
+[032:44] car is going to go down because you're already
+giving a turning input to your car and I'm
+[032:50] saying inputs in the sense that well if you
+use l roll at first well your car is not going
+[032:56] to be facing the same way meaning the top
+part of your car is going to be facing left
+[033:01] and the bottom part of your car is going to
+be facing right so if you try to go down you're
+[033:06] not going to go down to the ground anymore
+now in order to talk about this we will divide
+[033:13] our joystick into two single Parts the bottom
+part and the top part we'll look at it generally
+[033:22] and just right after this we'll look at it
+a little bit more into detail now the top
+[033:27] part of your joystick from top right to top
+left will make your car go to the right if
+[033:32] you keep the input while you're boosting all
+of these inputs will lock your back left wheel
+[033:37] and your front right wheel the bottom part
+of your joystick from down right to down left
+[033:43] will make your car go to the left if you keep
+the input while boosting all of those three
+[033:48] inputs will lock your back right wheel and
+your front left wheel so we can already see
+[033:54] a symmetry in this it's as though your car
+was cut from one angle of a rectangle to the
+[033:59] far symmetrical opposite back left front right
+and back right front left all right now if
+[034:06] you put your joystick to the far right and
+the far left otherwise known as tornado Spin
+[034:11] and reverse tornado spin it'll make you go
+straight those two inputs look absolutely
+[034:17] no wheels as though your car was cut right
+in the middle of its length axis this is where
+[034:22] you go straight so the joystick going right
+your nose is initially going right but your
+[034:28] car axis is going left to making the right
+front wheel go up now if you put the joystick
+[034:34] left for reverse tornado spin your nose is
+initially going to go left but the car axis
+[034:40] going left is going to make the left front
+wheel to go down that was a general idea now
+[034:46] let's go even more in depth alright so in
+order to go more in depth we're going to imagine
+[034:54] and I'm going to help with the screen we're
+going to imagine that the car is within a
+[034:59] ball yes and we're just gonna go again with
+the top part of the joystick and the bottom
+[035:04] part of the joystick so let's look at top
+sides if we put the joystick top left input
+[035:13] only at the beginning the nose goes down from
+the top left wheel and touches the very down
+[035:19] part of the ball
+[035:23] if we put the joystick top input only at the
+beginning the nose goes down from the top
+[035:28] left wheel and touches the down right part
+of the ball and finally if we put the joystick
+[035:36] top right input only at the beginning the
+nose goes down from the top left wheel and
+[035:42] touches the right part of the ball now if
+we constantly use boost while keeping this
+[035:47] input the car is going to go right on the
+first input as we saw making the car go right
+[035:53] and then go straight when keeping the joystick
+input and the Boost because we're doing per
+[035:58] se a tornado spin which makes us go straight
+if you keep the inputs while boosting your
+[036:04] car is not going to change direction this
+is not how you turn that was it for the top
+[036:09] side section now let's go to the dan part
+section of the joystick it's the symmetrical
+[036:15] opposite side and it goes as follows if we
+put the joystick down left input only at the
+[036:22] beginning the nose is going to go up from
+the top right wheel and touch the left part
+[036:27] of the ball if we put the joystick down input
+only at the beginning the nose goes up from
+[036:33] the top right wheel and touches the ball at
+its up left part yeah now finally if we put
+[036:40] the joystick down right input only at the
+beginning the nose goes up from the top right
+[036:45] wheel and touches the ball at its highest
+point and again if we constantly use boost
+[036:52] and we keep the input the car is going to
+go left on the first input as we saw making
+[036:58] the cargo left and then straight when keeping
+the joystick input and boosting for the same
+[037:03] exact reason notice that at some point your
+car is going to be reversed another way for
+[037:09] me to explain this is that when you tornado
+spin the upper right side of your car will
+[037:17] want to grab something up with your nose pointing
+upwards thus allowing you to take some air
+[037:24] whereas when you reverse tornado spin your
+car will automatically go belly up with your
+[037:29] nose pointing slightly downwards tornadoes
+spin and reverse tornado spin are to air roll
+[037:35] what Pichu is to Pikachu the very basic incomplete
+form it's cute too in a way now if you keep
+[037:42] boosting throughout the whole process notice
+you will not change direction as we saw that's
+[037:48] a first clue for us to admit that one input
+does not necessarily mean you're gonna turn
+[037:55] unlike what someone says on YouTube
+[038:00] tornado spins make you go high and straight
+according to the direction you were going
+[038:04] already and if you start Feathering your Boost
+you'll notice you can slow down while tornadoes
+[038:10] spinning every time your nose is facing towards
+you it's obvious but I'll just say it anyway
+[038:17] now keep all of this in mind we will come
+back to it later but don't learn it by heart
+[038:22] no just keep in mind what I just said yeah
+good all right it's finally time to get into
+[038:30] the the actual Theory slash method I am done
+with talking about those things everything
+[038:36] I talked about before reminders of what tornado
+and reverse tornado spins are I'm gonna actually
+[038:43] now start what I call my method which also
+has its own Theory because just like in Harry
+[038:49] Potter one cannot go without the other
+[038:58] introduction
+[038:59] the method will start with three Notions which
+all work together as one beautiful mechanism
+[039:07] feeling constants and Tempo and Rhythm which
+go together let's talk about those three pillars
+[039:16] as I call them we will also at once put those
+Notions into our terminology dictionary for
+[039:22] we will talk about them a lot what is feeling
+feeling is the ability to get feedback all
+[039:29] but last but how do I do it man mate I'm glad
+you asked by forcing it through inputs inputs
+[039:37] give you feedback the more input you give
+your car until it's capped because it is capped
+[039:44] it's not capped per se but it feels like it's
+capped so it is kept for us players the more
+[039:50] feedback and especially constant feedback
+is thrown back at you so the more feeling
+[039:55] you get in the end as Rocket league is a skill
+game it answers the same rule any skill game
+[040:03] needs a feedback loop what's the shorter but
+not least interesting video from that one
+[040:09] guy I was talking about before Link in the
+description so how does a feedback loop work
+[040:15] well just think of it this way if you put
+many inputs one after another on something
+[040:22] whatever you're doing let's say if you're
+doing the third input you will feel as you're
+[040:29] doing the third input you will feel the second
+input being made and if you do that consistently
+[040:37] then you're going to get a constant feedback
+of the latter inputs that you've made all
+[040:41] along that's a feedback loop what is a constant
+a constant is by definition anything that
+[040:49] is not a variable it's something that cannot
+change whether nature prevents it to change
+[040:54] whether it's thanks to you a constant is something
+that allows you to never get lost it's here
+[041:01] if you need it it's like a compass the fact
+that a whole day lasts 24 hours is a constant
+[041:07] created by man which relies on nature the
+fact that you have friends and family when
+[041:11] you're feeling down is also a constant they
+are everywhere and here in rocket League they
+[041:16] also exist on top of that and that's the beautiful
+thing you can create your own the same way
+[041:22] we created days for the nature giving us 12
+hours of light and 12 hours of Darkness the
+[041:28] game also has its own nature which we can
+sort of manipulate in a very simple turn a
+[041:34] constant is a pattern now Tempo and rhythm
+what are Tempo in Rhythm those two words work
+[041:45] together with feeling because you use Tempo
+and Rhythm as constants a Tempo is a decided
+[041:51] fractioning of time into equal pieces in music
+a Tempo is for instance 120 to the I don't
+[041:58] know how to say that in English 120 beats
+per minute all right a rhythm is a 4-4 beat
+[042:07] rhythm is the action doing within the temple
+whose speed can change by the way except that
+[042:12] you try to follow the tempo in a paradoxically
+intellectualized but felt way this sounds
+[042:18] weird but the truth is if you have rhythm
+in real life and sorry if you can't dance
+[042:21] you probably have a bad sense of Rhythm it's
+very natural the point is that it's also a
+[042:27] feeling one has a sense of Rhythm or not but
+here we're going to make it so even though
+[042:35] you can't dance in real life you're still
+gonna have the Rhythm and at least you can
+[042:40] understand what it is and how to create it
+control it learn it whatever you're gonna
+[042:46] build it now I'm gonna finish with those three
+pillars by saying that feeling is everything
+[042:53] in a skill game feeling is the basis the foundation
+of your skill but not only that it's also
+[043:01] the most flexible ability you will have to
+get good at a skill game you need to be able
+[043:07] to feel so to learn how to feel and to control
+how to feel and you need to do it constantly
+[043:13] in order to control what you're doing it is
+thus a constant but one that relies solely
+[043:19] on you and not the game Tempo is basically
+how long a constant does its full cycle its
+[043:25] full pattern in other words Tempo is what
+allows a constant to be validated as a constant
+[043:31] in order to be rinsed and repeated now the
+game already gives us some constants by itself
+[043:37] let's see what they are boost is a constant
+that you can toggle on and off every time
+[043:42] you press the button if you do and keep it
+long enough it'll be considered a constant
+[043:48] when we talk here we will always talk as though
+we were always and I mean always pressing
+[043:54] boost so that we can put aside the variable
+that is Boost when we don't press it constantly
+[044:00] you will learn that by yourself pretty naturally
+and I don't believe I should make a chapter
+[044:04] and boosting it would be a waste of time and
+we're already holy [ __ ] it's like 40 minutes
+[044:11] another constant that the game gives us is
+the revolution or revolutions and we will
+[044:17] right now put it in our terminology dictionary
+A revolution is a full rotation of your car
+[044:23] on its longitudinal axis while pressing air
+roll it defines the time between the moment
+[044:29] you press air roll and the moment you get
+back to the same position you wear when you
+[044:33] first pressed it it is the one constant the
+game gives us that cannot change for its speed
+[044:39] is fixed and there's no going faster it'll
+always go the same speed and for this only
+[044:44] reason it makes it a constant as it follows
+the same tempo all the time the tempo is the
+[044:51] revolution the time for the revolution to
+live and then die the rhythm is you giving
+[044:57] inputs with your controller during one revolution
+of the car get it good I think it's good that
+[045:03] you get it I'm very happy with that why am
+I talking about feeling constants and Tempo
+[045:09] slash Rhythm what do they have in common well
+as you could hear they have in common that
+[045:14] they all work together they rely on each other
+and they give us the opportunity to force
+[045:19] the game into giving us feedback and thus
+feel what we're doing by using some constants
+[045:27] that it gives us and constant that we will
+also create for ourselves we need to respect
+[045:32] a certain Tempo and or rhythmic pattern otherwise
+the constant will be flawed and thus invalidated
+[045:38] and simply won't exist anymore let me say
+that again we're going to create ourselves
+[045:45] some feeling that is relative to our movement
+through our hands and controller I kid you
+[045:51] not first and foremost oh that's hard to say
+first and foremost first and foremost first
+[046:00] and foremost [ __ ] first and foremost as
+many YouTubers have said one must always make
+[046:06] inputs at the beginning of a revolution when
+the hood of your car is facing your way this
+[046:13] is the first constant we will create for ourselves
+always working with a nice clean neat beginning
+[046:20] of a revolution we will not work with a revolution
+that has already started everything we do
+[046:26] is from the first beat of this musical bar
+or measure the first beat being when your
+[046:31] hood is facing you let's put this wheat sentence
+into a very simple very simple action for
+[046:38] fun let's do a tornado spin on one revolution
+and a reverse tornado spin on the next one
+[046:44] and so on and so on do it no no you do it
+what happens yep even though the first directions
+[046:54] the car goes are different on a one revolution
+basis we're going straight but that's not
+[047:01] enough far from it no need to be very clever
+to understand and see on streams and YouTube
+[047:05] videos that a directional Arrow user doesn't
+just keep his input at the same spot but instead
+[047:12] he seems to constantly make adjustments within
+a revolution sneaky mother many videos talk
+[047:19] about how to turn while air rolling actually
+their whole tutorial video is based on just
+[047:25] turning left or right what they say is not
+false but it's just incorrect it's not all
+[047:30] of it first one has to take into consideration
+the fact that the joystick is constantly moving
+[047:36] while in the air to do those unteachable micro
+adjustments everybody's talking about but
+[047:41] secondly and most importantly there is more
+important than just turning controlling your
+[047:48] car is more important and I believe before
+someone learns how to turn one should already
+[047:53] know how to go straight while using the whole
+joystick this is the perfect time for us to
+[047:58] learn at our very first own constant I mean
+practical constant all right I am very happy
+[048:06] to share with you the very first basic practical
+concept of this method the clock I see many
+[048:14] people use it whether they know they're doing
+it or not whether they understand what it
+[048:19] is or not first and foremost we're going to
+put it in our terminology dictionary because
+[048:24] this one we're going to hear a lot directional
+airwall learning Starts Now
+[048:29] ever wondered what would happen if you did
+a full joystick rotation at the same tempo
+[048:37] and rhythm with which a revolution of your
+car goes on a one per one Rhythm don't forget
+[048:43] to start from the far right input on your
+joystick try it see what happens try to get
+[048:50] that tempo of the Revolution down and try
+to keep yourself in rhythm with it good now
+[048:57] try to do it while going up in the air and
+constantly using boost what's going on here
+[049:04] mate yeah you're going straight man again
+let's call this discovery the clock and don't
+[049:09] forget to put it in your terminology dictionary
+let's also call the fact of going One Direction
+[049:15] even if it's straight a vector and let's also
+put that in the dictionary Vector means Direction
+[049:22] very simple now what happens if you do what
+we call now a clock a double clock meaning
+[049:30] doing two joystick clocks for one car Revolution
+thus elevating the Rhythm twice while staying
+[049:36] at the same tempo oh my God you're still going
+straight I tried doing a triple clock yeah
+[049:44] you might need space for that but just try
+doing it you guessed it while you were using
+[049:51] the clock or the double clock you could see
+your car slightly making very subtle turning
+[049:56] movements listen to me those turning movements
+are the ones we are interested in and you
+[050:02] already kind of know why try doing the clock
+again yeah now you might understand why we're
+[050:07] interested in them because it is those little
+movements that give you feedback thus feeling
+[050:15] those teeny tiny adjustments of the car which
+cancel one another that's why you're going
+[050:20] straight you can feel them work on your car
+what you're feeling is your car's weight and
+[050:26] momentum in the air remember when I said the
+inputs are capped in the game yeah try doing
+[050:33] more than a triple clock and see what happens
+yeah man you're still going straight but there's
+[050:39] a difference the difference is that the game
+is not perceiving your joystick as it considers
+[050:45] there are too many inputs to be recognized
+thus leaving you with absolutely no feedback
+[050:50] because it considers that no inputs were made
+it's literally as though you had never touched
+[050:56] your joystick by the way why do they cancel
+one another because if you've done it properly
+[051:01] while strictly respecting the tempo you will
+have stayed on this input an equal amount
+[051:06] of time let's say the revolution takes one
+second to be done if you're doing the clock
+[051:11] properly each angle of the inputs you will
+have made will have lasted the same amount
+[051:15] of time as the other inputs if we simply say
+that the time made to do the revolution which
+[051:19] for this example lasts one second can be divided
+into four equal parts then your clock properly
+[051:25] executed will have its inputs made every quarter
+or a second precisely so the car does not
+[051:33] find itself going more one way rather than
+another one which makes it go straight as
+[051:38] all the inputs perfectly cancel each other
+and themselves at the right time simply put
+[051:44] the clock is a way to redistribute the time
+spent on your input equally within the revolution
+[051:49] Tempo is one neat and precise Rhythm allowing
+you to go straight while still having feedback
+[051:57] now I'm pretty sure that this last statement
+awakens something in you and you're right
+[052:02] about it it means that this is how you can
+theoretically start turning but it's important
+[052:08] to understand that in this game as on a bicycle
+one needs to know how to go straight before
+[052:14] learning how to turn little tip if while doing
+the clock you start going too much to the
+[052:20] left try two things one try starting your
+clock not from the far right but from the
+[052:26] upright input on your joystick we'll see what
+in a minute and two every time your car is
+[052:31] upside down you should be around the left
+part of your joystick here if you don't want
+[052:36] to go too much to the left you should Linger
+on this left side a bit more even though it
+[052:41] seems out of rhythm again we'll see why later
+on by applying those two tips you'll see yourself
+[052:47] going straighter than before remember the
+method is here to teach you how to feel once
+[052:53] you get it you won't need all of this to go
+straight or turn because you will one have
+[052:58] learned from feeling and empiricism what you're
+doing and two you will find as we'll see later
+[053:03] the limits of this once you've learned the
+method just like in instruments on which you've
+[053:08] spent enough time learning you'll be able
+to just improvise or hear flying around freely
+[053:15] a method is merely used to learn and train
+and then can be discarded when you have enough
+[053:19] control if you forget anything just come back
+to the method and you're constant and then
+[053:24] eventually fly away from it again I like puns
+there's a pun in that because I've said what
+[053:31] I just said let me do a pre-note about turning
+turning can be achieved while using the clock
+[053:37] by simply keeping an input longer than the
+other ones keep that input in One Direction
+[053:43] and another Vector shall appear now lock this
+input by just finishing your clock and Bam
+[053:49] you've turned left and now you're back to
+going straight let's put locking right next
+[053:54] to the clock in our terminology dictionary
+because locking literally means locking a
+[053:58] vector which means locking a direction a direction
+by the way that you will have chosen to keep
+[054:04] it simple when you lock you choose to go straight
+from your last vector by using the clock concept
+[054:11] you're right good by the way when you see
+on a video The Players joystick going many
+[054:16] directions it's because that person is trying
+to get the feeling of the car not all of these
+[054:22] inputs are directions they're both used to
+get the feeling and at the same time give
+[054:28] a vector to turn so one question right now
+could be why use a clock instead of a double
+[054:34] clock or a triple clock to be honest at first
+I thought this would be arbitrary but it's
+[054:41] not because physics first the faster your
+car moves the more strongly it responds which
+[054:48] also means that the feeling is also stronger
+that's an engineering thing that I was told
+[054:54] and hopefully I'm not wrong saying it
+[054:58] on top of that a slower Rhythm also means
+a higher chance of being out of rhythm thus
+[055:03] making the corner go straight the reason being
+you might spend way more time on an input
+[055:08] rather than on another one because you're
+focused and because of that you might find
+[055:13] that using the double clock is somehow easier
+the theory stays the absolute same you pick
+[055:19] and choose what you want in it I use the double
+clock more than the clock but again it's just
+[055:24] a personal feeling don't get lost though as
+all the inputs you're making will have to
+[055:29] be canceled quickly and if you don't bam you've
+missed the revolution Tempo and you're lost
+[055:33] until you get the feeling back usually by
+waiting for the hood of your car to face you
+[055:38] and start your constant again but again according
+to physics the faster your car moves so the
+[055:44] more inputs you give the stronger the feeling
+is in the end again I personally use the double
+[055:51] clock more than the simple clock but in training
+when you're learning you should use both especially
+[055:57] the simple clock as it is more basic hence
+more important to muster the better you are
+[056:03] at mustering the basics the better off you
+will be I'm not making this up I'm not the
+[056:09] first one to say it on the planet that's how
+it is lastly I only use the triple clock while
+[056:15] doing Rings map because I have a lot of space
+and it allows me to take very nice turns while
+[056:20] keeping my nose towards where I want to go
+to be honest I realized I was doing a triple
+[056:26] clock while making this video before that
+I thought the inputs were capped at the Double
+[056:30] clock but I was wrong you can go for triple
+not really useful unless you're trying to
+[056:35] speed run something as it actually requires
+you to be extremely precise with your joystick
+[056:40] it's literally harder than doing a clock or
+a double clock and on top of that you would
+[056:46] have to know how to turn with a clock first
+and then go for a double clock turn and then
+[056:51] go for a triple clock turn it's not that hard
+but it's also not that useful all right now
+[056:58] that you know about clocks and that we've
+seen what tornados are again let's take a
+[057:04] step back and correct something that seemed
+simpler to say before but is now incorrect
+[057:12] let's talk about angular momentum imagine
+you and your friend are on a Merry-Go-Round
+[057:19] and you are more towards the center of the
+Merry-Go-Round and he is more at the outside
+[057:25] portion yeah if the Merry-Go-Round starts
+turning you're both gonna stay at the same
+[057:31] spot yeah that means that he's actually going
+faster than you because he has to catch up
+[057:38] now we can relate to this with the car if
+the car was not a square but a circle the
+[057:44] center of mass of your car is the center of
+the circle yeah the diagonals are the outside
+[057:50] portions of the merry-go-round so every time
+you do a diagonal flip in a weird way your
+[057:57] diagonals are going to go faster than your
+straight angles this is a very simple analogy
+[058:04] of what angular momentum is and hopefully
+I'm not wrong as I said when doing a clock
+[058:11] you get a feeling the feeling I'm talking
+about while using the clock if we want to
+[058:16] go more in depth is most felt at the very
+end of your clock when your joystick is going
+[058:22] top right and even more felt when doing a
+double clock because from what I was told
+[058:27] and what I said above the faster the movement
+the stronger the angular momentum meaning
+[058:33] for us using this method the stronger the
+feeling I'm excluding triple clock here this
+[058:39] is the moment when you can actually feel your
+car the most per se it considers the diagonals
+[058:45] to have more momentum of movement than all
+of the straight sides meaning up down left
+[058:51] and right this is why doing a diagonal flick
+is better than a front or a side flick it'll
+[058:56] have more power the same way the crawl swim
+has more power than the breaststroke swim
+[059:02] now as we're using the clock we're going the
+tornado spinway which means the diagonals
+[059:07] we're most interested in are the right diagonals
+because tornado spinning which makes you get
+[059:12] height is having your joystick to the right
+for this reason it's also where you can get
+[059:18] the most of the feeling at the end of your
+clock or double clock focus on what feedback
+[059:22] you're getting and get used to it again love
+it like it's your baby by the way this is
+[059:28] why I said when I taught you at the clock
+that if you mess up your Rhythm you'll start
+[059:32] going to the left and that maybe you could
+start your clock if you want it from upright
+[059:37] yeah the first reason being what I just described
+the fact that your car will have a small burst
+[059:41] of momentum allowing you to go a bit farther
+in front of you and less to the left and the
+[059:47] second reason being that obviously putting
+your joystick up and to the right will make
+[059:51] your car go less to the left as this very
+input is the main one used to go to the right
+[059:57] because tornado spin means your joystick does
+not answer The Logical joystick up means I'm
+[060:02] going down and joystick down means I'm going
+up and joystick lap means I'm going left them
+[060:06] joystick right means I'm going right as we
+said before getting into the actual method
+[060:11] long story short the clock is best usable
+to go straight by starting it at the up into
+[060:18] the right input it was easier for me to get
+to this point by saying it was from the right
+[060:23] as it follows the tornado spin inputs nevertheless
+you can get a clock from the right side input
+[060:28] which is what I do all that matters is that
+you put enough inputs at the right time and
+[060:34] within the tempo for you to be able to force
+the game into creating this feedback in the
+[060:39] end it all depends on your ability to be precise
+but what you should seek is that weird momentum
+[060:45] feeling now that we know about going straight
+now that we've touched a bit about feedback
+[060:51] through input resulting in feeling and thus
+control over our car let's go back to Turning
+[060:57] except we'll go a little bit farther than
+we did with the out of rhythm concept for
+[061:03] turning the basics of turning while also using
+feedback loops such as the clock upright down
+[061:12] right that's what every single YouTubers told
+us it's not incorrect but it's not enough
+[061:19] because when air rolling you shouldn't and
+actually you don't keep your joystick in one
+[061:23] input for the whole duration of the Revolution
+why because we're not in a ring snap and have
+[061:28] to readjust our trajectory very quickly all
+the time what they should have said is the
+[061:33] following the first input on which a vector
+can be locked to turn left is Dan right the
+[061:40] first input on which a vector can be locked
+to turn right is upright example if I want
+[061:46] to go left I'm going to jump boost and at
+the same time press L roll plus my joystick
+[061:52] down right until the vector is ready and then
+I'm going to lock it and clock it that's right
+[061:58] that's it there's no more to turning there's
+no more to Turning now you can turn that's
+[062:03] all you need to know just remember what we
+said before when we're talking about all the
+[062:07] different inputs possible at the beginning
+of the method upright and downright those
+[062:14] two inputs are sufficient to know how to turn
+just also remember what I said that there's
+[062:21] a top part of your joystick that makes you
+go right and there's a bottom part of your
+[062:25] joystick that makes you go left that's all
+you need to do that's right and it's important
+[062:29] to know that if you miss your clock for any
+reason after locking and clocking it in this
+[062:34] case you've given a lot of time in turning
+so your clock should be late try to finish
+[062:39] it by catching the clock you'll be fast enough
+to still get feedback but not fast enough
+[062:45] so that the game doesn't register your input
+let me say that again if your joystick did
+[062:50] not follow the car Revolution fast enough
+while doing the clock whether it's because
+[062:55] you missed it which happens because you simply
+missed it all because the ball count messed
+[062:59] up your perception of where you're at or because
+you needed to spend more time of the Revolution
+[063:04] activating per se a vector in order to turn
+like the example I just gave of going left
+[063:11] catch your clock if it's really not possible
+either wait for it on the next Revolution
+[063:18] with your joystick going straight to the right
+like a tornado spin or just drop your joystick
+[063:23] and wait for your next Revolution because
+that's all that matters and we'll call this
+[063:27] refreshing the car another way of refreshing
+your car that I didn't mention is to obviously
+[063:33] let go of airwall button and trying to put
+your car with your nose facing upwards Revolution
+[063:39] neutral this is how you never get lost by
+the way by constantly even if you mess up
+[063:45] respecting the tempo it's better to be off
+Rhythm than off Tempo good good now let's
+[063:52] by the way put catching the clock and refreshing
+the car in our terminology to catch the clock
+[063:58] is the action of speeding up or slowing down
+your joystick inputs while doing the clock
+[064:03] so that you end up the end of your clock at
+the same time your Revolution ends thus keeping
+[064:08] your bat off rhythm beat into a new temper
+measure or Tempo bar hopefully allowing you
+[064:13] to keep a good Rhythm on the next Revolution
+if you're too early and you want to catch
+[064:18] a clock just slow down your Rhythm while doing
+the clock and if you're too late finish the
+[064:24] clock so catch the clock faster in order to
+get your joystick to the right at the beginning
+[064:28] of the next Revolution if you don't want to
+catch a cloak because you're way too late
+[064:33] or way too early or because what you've been
+doing is very very nasty and you can't get
+[064:38] around it refresh your car meaning either
+keep your joystick as closest to the right
+[064:44] as you can to wait for the revolution to end
+and start again or just plain drop your joystick
+[064:49] and wait for the revolution to end its cycle
+a third way of refreshing your car is to completely
+[064:55] let go of your air roll button and trying
+to make your nose face upwards notice two
+[065:01] things if you drop your joystick you will
+instantly lose feedback because you're not
+[065:07] giving inputs on the other hand if you put
+your joystick to the right as I said it's
+[065:12] good you're ready for the next Revolution
+but while you're putting your joystick to
+[065:16] the right you're giving a flying input if
+you're too early meaning the car is upside
+[065:20] down and you put your joystick to the right
+you will go down to the ground in any case
+[065:26] it's better to keep in rhythm again keeping
+your constant straight even if you mess up
+[065:32] that's how we build consistence at the same
+time of still working with building our sense
+[065:37] of feeling in the sense that recognizing what
+it feels like to mess up is also training
+[065:42] your feeling instead of only relying on empiricism
+to learn we're actually helping empiricism
+[065:49] learn through us this would also be the right
+moment to repeat that as we saw in the car
+[065:56] movement upright and down right are the only
+ways to go left and right is just that if
+[066:00] you start your turns especially while learning
+by using the side of the joystick relative
+[066:05] to the tornado spin your car will go upwards
+instead of downwards it's a very silly fact
+[066:11] but personally if I'm in a plane I'd rather
+lose control while going higher in the air
+[066:16] rather than losing control while dive bomb
+being straight to the ground as the left part
+[066:20] of the joystick which is relative to the reverse
+tornado spin does again not any YouTuber gives
+[066:27] you the exact reason on why use the right
+part of the joystick in order to turn well
+[066:32] now you know so again if you want to turn
+left let's say accelerate jump and boost and
+[066:39] Press air roll while at the same time putting
+your joystick down right when you're going
+[066:44] as far left as you want to go which essentially
+could also be defined as make a tornado until
+[066:49] your nose is facing the way you want to go
+catch the clock and go straight yes you could
+[066:55] turn left without putting your joystick down
+right all that matters is where your nose
+[067:00] is pointing and when you're going to boost
+and we've seen that during a tornado spin
+[067:05] your nose literally makes kind of a vertical
+circle around the axis of your car if your
+[067:10] car is facing straight up obviously so essentially
+you could just make a tornado Spin and go
+[067:16] straight and at some point catch the clock
+and be going left all that changes is that
+[067:22] we've also seen that putting your joystick
+down into the right as a first input makes
+[067:27] your cargo left to start with because it doesn't
+cut your car right in the middle like a tornado
+[067:32] does you will turn less by using a tornado
+and catching the clock the best way is still
+[067:38] to give the correct input to your car the
+one input you need to position your car the
+[067:43] best way for it to go somewhere specific but
+again there aren't many left is downright
+[067:49] is top right now add to that your Boost and
+you're done again all along remember we've
+[067:58] been seeing directional air roll training
+with Boost constantly up this is because we're
+[068:02] trying to learn how to make ourselves feel
+the car when you get it you'll just know when
+[068:07] to stop listening and you'll know what to
+pick and choose from the information I'm giving
+[068:11] even though I'm not going to make a chapter
+on boosting you can see for yourself that
+[068:15] releasing boost when you're facing a Direction
+you don't want to go to and then applying
+[068:20] boost when your nose is going the direction
+you want to go is how you'll eventually be
+[068:24] turning for Real where you want to go we're
+here analyzing what happens when you make
+[068:30] a boost constant as it would be over complicating
+things to make the boost a variable in a nutshell
+[068:38] choose your direction give the first joystick
+input basically upright or downright lock
+[068:45] it clock it catch the clock or refresh it
+rinse and repeat again this is the basics
+[068:53] of how to turn while also using feedback loops
+remember the only thing we're doing here is
+[068:59] give one directional input at the beginning
+of the Revolution and then give a feedback
+[069:04] loop because in reality when you're good at
+air rolling what you're going to do is that
+[069:08] you're going to give directional inputs at
+the beginning of the Revolution and then give
+[069:13] some feedback inputs and you're going to rinse
+and repeat that all the time at each Revolution
+[069:20] now that we know about the clocks concept
+and turning let's see the limits of those
+[069:26] the clock as you could tell with a little
+training has its limits as we can only move
+[069:30] our joystick in one specific manner we use
+all of the joystick but it just moves one
+[069:36] specific fashion you'll notice that sometimes
+your car will start pointing to the left and
+[069:42] no amount of clock or turning or putting your
+joystick upright and waiting for the vector
+[069:47] to appear and then locking it can stop this
+effect especially if you're going full Boost
+[069:51] and doing clocks and double clocks it's time
+to learn about what we will now call and insert
+[069:56] in our terminology dictionary calibrating
+calibrating is the first time we're going
+[070:02] to neglect what we said earlier about when
+to work with our constants and this time make
+[070:08] an adjustment in between our Revolution it
+is the only time we will need to do it why
+[070:15] do we need to calibrate if we can simply do
+it when the revolution starts well because
+[070:19] as you'll feel sometimes Waiting For A revolution
+is too late because your car's nose and or
+[070:25] your vector will be already going too far
+towards the left making it too difficult and
+[070:30] too long to either get your nose back towards
+the right and or quickly change whatever Vector
+[070:35] you had that is why we need to find a way
+to get this change in between your Revolution
+[070:41] so that when the new one starts you'll quite
+literally back on track I like pants man today
+[070:47] what the you already know what calibrating
+is and you've already used it unconsciously
+[070:54] do you remember the two tips I gave if you
+didn't go straight while making a clock the
+[070:59] first tip was to start upright instead of
+far right and we saw that this was because
+[071:04] of angular momentum and the second tip was
+Linger on the left side of your joystick now
+[071:12] let's go back to reverse tornado spin when
+you do a reverse tornado spin your car will
+[071:16] go belly up and that is what we're interested
+in simply put if your nose goes to the left
+[071:23] too much and your cargo's belly up everything
+is symmetrically opposite meaning that when
+[071:29] you're belly up your nose will now be facing
+more towards the right of your screen than
+[071:34] it was just before what we do with calibrating
+is stressing this phenomenon by giving it
+[071:40] a left input making the nose of your car as
+your belly up go towards the right of your
+[071:45] screen even more now do you put your joystick
+to the far left up left or down left when
+[071:50] the car is upside down listen again your car
+is upside down so if I put a down input with
+[071:57] my joystick and my car is upside down my nose
+is gonna go towards the ground on the contrary
+[072:02] if I put my joystick up when my car is going
+belly up well my nose is going to go towards
+[072:08] the sky so that depends on what you want to
+do if you want to get some air you're going
+[072:12] to want to go top left if you want to go down
+you're going to want to go down left if you
+[072:18] go straight to the left not much is going
+to change vertically at first I thought when
+[072:25] I discovered that thing and I put a word on
+it I thought that the calibrating should be
+[072:30] done when the car is upside down but the actual
+truth on when to make the input is right before
+[072:36] your car is totally upside down there's a
+very small Nuance is similar to the fact that
+[072:41] I say that the clock should start in tornado
+spin meaning far right and I say that so that
+[072:46] you understand quickly what I mean and in
+reality then I say it should be done with
+[072:51] the input up and to the right so if you want
+to calibrate actually more do make the input
+[072:57] before your car is upside down right before
+while still not doing it at the beginning
+[073:02] of the Revolution as this might just mess
+you up given that it will put you in a reverse
+[073:06] tornado spin with your nose going downwards
+and then you'll just panic and you're just
+[073:11] gonna crash so let's take calibrating in a
+nutshell we've seen that the joystick has
+[073:17] eight inputs among those eight inputs six
+of them are directional inputs so all of the
+[073:24] inputs except from far left and Far Right
+which are relative to tornado Spin and reverse
+[073:29] tornado spin but calibrating is composed of
+three inputs far left up left and down left
+[073:40] all those three inputs are also relative to
+the reverse tornado spin the moment to calibrate
+[073:47] the right moment to calibrate is right before
+your Revolution gets to its middle it's half
+[073:55] let's say about 25 degree rotation in when
+you get to a 25 degree rotation you can start
+[074:03] calibrating and you will notice that your
+nose is going to start facing towards the
+[074:09] right it's going to take a new Vector towards
+the right so this is calibrating I use it
+[074:15] all the time everybody uses it all the time
+you're gonna calibrate all this I use it all
+[074:21] the time time
+[074:25] all right now that we know about calibrating
+we can turn right two ways first by putting
+[074:30] your input up into the right at the beginning
+of the Revolution and also by calibrating
+[074:35] so what you can do is actually start turning
+towards the ride even more by doing first
+[074:41] the input upright and then instantly calibrating
+by swiping your joystick towards the left
+[074:48] at the right time but we're gonna go even
+further than this
+[074:57] the reverse clock you wear this is not what
+it seems a reverse clock can make you take
+[075:04] a very tight turn try starting flying and
+doing a simple reverse clock while starting
+[075:11] from the top part of the joystick wherever
+you want as long as it's from the top part
+[075:15] of the joystick by reverse clock I do mean
+a normal clock Rhythm like you know how to
+[075:20] I don't mean a double so do it that's right
+it's a hard turn right no matter where you
+[075:28] started top left or top or top right you will
+turn right now try doing the same thing while
+[075:35] starting from the bottom part of the joystick
+yep now you're making a hard left we will
+[075:40] call this a reverse clock and put it in our
+terminology dictionary again I'm being very
+[075:46] specific with the term reverse clock as a
+simple clock all right now you can notice
+[075:53] two things if you keep doing a reverse clock
+you will obviously make your car go behind
+[075:59] you we can hand say and see that it's a nice
+way of making a U-turn in the air for example
+[076:06] if you start an aerial but you see that you're
+not going to miss the ball and it's too late
+[076:10] for you to get to the ground and do a half
+flip that you can make this sort of hard turn
+[076:15] hard flip U-turn in the air second thing to
+notice the far left and Far Right inputs still
+[076:22] do count as their own directions unlike the
+tornado Spin and reverse tornado spin which
+[076:27] don't make you go left or right for as we
+saw way back no wheels are locked with a reverse
+[076:34] clock if you start it from far left you will
+still make a hard left turn as though is part
+[076:38] of the bottom part of the joystick and if
+you start it from the far right your car will
+[076:43] respond as though it was from the top part
+of the joystick meaning you'll go right so
+[076:48] the far right is including in the top part
+of the joystick and the far left is included
+[076:52] in the bottom part good that's reverse clock
+be very precise with it I mean a simple Rhythm
+[077:01] clock one per one rhythm just like a simple
+clock or the other way around counterclockwise
+[077:07] Alright good we're gonna go even further with
+a reverse clock the advanced way of turning
+[077:16] is to give more than one directional input
+to your car meaning not only giving one input
+[077:21] when the revolution is neutral as we've seen
+before in the basics of turning chapter where
+[077:26] we took one directional input while the Revolution
+was neutral and then did a feedback loop now
+[077:32] we're going to see a more advanced way of
+turning while using directional inputs continuously
+[077:37] during the revolution and we've already kind
+of seen it now what you want to do is divide
+[077:44] your reverse clock into two parts the first
+part being down right up and the second part
+[077:52] being up left down all right now they're going
+to be two speeds for each of these half reverse
+[078:00] clocks there's going to be a slower speed
+and there's going to be a faster speed the
+[078:07] slower speed is the one that's going to make
+you turn and actually turn more than just
+[078:13] using one input actually the first speed is
+going to enable the car to turn even more
+[078:19] than it would usually so if you do down right
+up slowly very slowly your car is going to
+[078:26] go left if you do up left down slowly your
+car is going to go right so that's the slow
+[078:38] speeds of the half reverse clocks all right
+this is turning 2.0 if you'd prefer now the
+[078:46] faster speeds is going to regulate the verticality
+of your car so just try doing down right up
+[078:55] but much faster than you did just before and
+see what happens yeah your car is going to
+[079:02] get vertical now if you do the opposite if
+you put your car vertically and then do up
+[079:08] left down fast what's going to happen your
+car is going to get horizontal again so you
+[079:15] can change and moderate the verticality of
+your car while using the exact same thing
+[079:21] you would if you wanted to turn in a more
+advanced way all right so that's turning 2.0
+[079:28] now all you have to do is add some feedback
+loops to that and this is how you actually
+[079:36] fly good great
+[079:43] so what you want to do basically is to start
+at any directional input and make half a reverse
+[079:50] clock from that point and that should make
+you turn if you do it slowly enough obviously
+[080:03] now that we know how to do all that how do
+you feel most of the clocks and you will Master
+[080:09] calibrating add to that the reverse clock
+and you can make u-turns do half reverse clocks
+[080:14] and you know how to turn the advanced way
+master all of these and I'm saying Master
+[080:18] but Master is a big word just get a nice Foundation
+of feeling for these Notions and we are at
+[080:24] the end of the method what wait whoa I'm confused
+why dab that's it well yeah mate that's it
+[080:35] because by now you might have figured out
+that the clock or the double clock is just
+[080:39] a certain type of combos as we may call them
+the simple fact that you can mess up your
+[080:44] clock by starting it on a different input
+but still get a feeling it's here to show
+[080:48] you that you have learned muscle memory if
+you're good at the clock slash double clock
+[080:53] you'll also know when you're not in the right
+tempo for it while you're doing a clock Rhythm
+[080:58] pattern constant you'll still go straight
+but the feeling will be different super interesting
+[081:04] to notice and notice you will as soon as you
+recognize what the clock feels like and you
+[081:09] can pretty much Master it again Master is
+a big word but it's after all not that hard
+[081:14] to do to roll the joystick with rhythm starting
+from one specific spot and then make a clockwise
+[081:20] motion with it that's why we can also say
+that the clock and the double clocks are obviously
+[081:25] not the only constants of pattern or in other
+words combos this is the end of the method
+[081:33] thank you for watching
+[081:34] thank you thank you thank you oh my God thank
+you so much thank you this is crazy thank
+[081:35] you so much thank you thank you
+[081:36] [Applause]
+[081:37] easy you guys are [ __ ] insane thank you
+so much I hope you liked it I really hope
+[081:38] you liked it thank you thank you thank you
+oh my God I don't have the words for this
+[081:48] you guys want a joke okay I created a new
+word it's plagiarism so don't [ __ ] with
+[082:18] me or I'll strike you
+[082:19] that's a good one
+[082:21] well you see you want to see more combos all
+right man I'm gonna give you more all right
+[082:34] uh the reverse double clock just try for the
+sake of it to do what we will call now a reverse
+[082:41] double clock and yes I said this time reversed
+double clock not reverse clock because you
+[082:47] know what that does and let's put it in the
+dictionary the joystick input shouldn't start
+[082:52] from the far right of your joystick this time
+but from the bottom so do a reverse double
+[082:57] clock double Rhythm of the clock counterclockwise
+what happens when you do that yeah your car
+[083:03] still goes straight but it feels different
+doesn't it it feels like it's being pulled
+[083:08] from your forward Wheels rather than pushed
+from your back wheels in other words reverse
+[083:13] double clock feels like you're dealing with
+a front wheel car whereas a clock or a double
+[083:18] clock or triple clock feels like you're using
+a back wheel car obviously this isn't true
+[083:24] but I say it so that you understand you must
+recognize a certain feeling a feeling that
+[083:29] is different from the clock notice that the
+reverse double clock can make you go up as
+[083:34] easily as just pressing down on your joystick
+without air rolling why because as we've seen
+[083:40] in the reverse clock chapter if you get the
+second speed of the reverse clock the fastest
+[083:45] one of the both you will regulate the verticality
+of your nose so you can just do that and then
+[083:52] reverse double clock and go straight it feels
+like gravity has a lesser impact when you're
+[083:58] using the reverse double clock also notice
+that if you don't do a reverse double clock
+[084:04] quickly enough you will not go straight because
+it will actually be what we said before a
+[084:09] simple reverse clock a simple reverse clock
+doesn't work like a normal clock because your
+[084:14] car is not counter balancing the air ball
+rotations anymore but you're rather more going
+[084:20] with it as you're turning in a left Circle
+motion a counterclockwise motion on top of
+[084:26] the left Arrow which literally makes it accelerate
+and go crazy in order to get that constant
+[084:32] to be equalized what do we do we double the
+Rhythm in the tempo let's see it as a sort
+[084:38] of double negative if clock goes left which
+is the L roll plus right which is a joystick
+[084:45] input then car goes straight then a reversible
+clock would go left plus left equals straight
+[084:52] it's unlogical and it's perfect like that
+this needed to be said in order to show that
+[084:56] a reverse clock and a reverse double clock
+although it might be confusing to explain
+[085:00] and understand are clearly not the same thing
+and the difference holds on a very subtle
+[085:06] little Nuance slower joystick means you're
+going to turn faster joystick means you're
+[085:11] going to regulate the verticality and even
+faster will make you go straight could could
+[085:17] all right you got me I tricked you because
+I said it was another combo and it is but
+[085:23] it had to be said also because of the differences
+with the simple reverse clock now there actually
+[085:29] are other combos now just try to go up and
+down while following the constant of tempo
+[085:34] what happens you go straight and then do the
+same thing with left and right what happens
+[085:40] yeah man you're still going straight it's
+the same absolute thing if you try now with
+[085:45] upright downright yeah man you're still going
+straight no matter what you do if you manage
+[085:52] to cancel it by either doing the complete
+opposite input or not the actual input the
+[085:57] input that would make your car go the opposite
+direction from the last input your car will
+[086:01] go straight you have all you need to go on
+your own now because from now on your muscle
+[086:07] memory is going to take over especially now
+that hopefully you've understood how it works
+[086:13] just see for yourself now there you can feel
+and now that you've practiced more of it to
+[086:17] the point of controlling it what you feel
+when you do all those different combos so
+[086:22] the clock double clock reverse double clock
+up down left right diagonal upright and diagonal
+[086:29] downright so up right down right they all
+have their little special traits but they're
+[086:33] all the same and now finally now we can start
+relying on empiricism time doing its work
+[086:41] with our muscle memory because now we know
+what we're doing so let me just talk about
+[086:47] the those other combos a little bit more yeah
+so the up down combo the feeling is as though
+[086:54] you can keep a straight ball better on your
+nose why well simply because you're not giving
+[086:59] any hard directions sideways to your car if
+you do it fast enough so the up and down inputs
+[087:05] will feel like they're actually registered
+as up and down better I know I said that while
+[087:11] using Arrow the inputs don't answer in a classic
+way like up means down but it still feels
+[087:16] the same when you go up down fast enough for
+the game to register them as nose pointing
+[087:21] down to the ground and nose pointing up to
+the sky
+[087:27] now the Left Right combo I use it often once
+you understand the constants and the tempo
+[087:33] slash rhythm part of all of this you will
+notice that you can basically go anywhere
+[087:37] while just using those two inputs as I said
+about the up down combo the game here still
+[087:43] registers your car is going left or right
+in a quite normal fashion rather than up and
+[087:47] down so if you want to turn with this combo
+as we said it's all about feeling when to
+[087:52] keep the input and when to switch to the other
+one it's literally a chain of getting a vector
+[087:59] locking it now not with the clock but with
+this combo so you choose a vector you lock
+[088:04] it by doing Left Right which makes you go
+straight and then you just rinse and repeat
+[088:10] and you keep on turning and going straight
+and whenever you want now the diagonals I've
+[088:15] talked about them already they have to deal
+with the angular momentum I saw many many
+[088:21] streamers go straight with only those inputs
+and that's one of the things that made me
+[088:26] realize that it's just about Rhythm and Tempo
+um I saw this guy go top right down right
+[088:32] top right down right top right down right
+and he was just going straight but he was
+[088:36] going fast all right so that was it for the
+combos now notice that these combos work in
+[088:42] asymmetry if you don't make a combo with a
+symmetry you won't go straight that's why
+[088:49] the clock is so important because it shows
+you that with the whole joystick you can go
+[088:53] straight meaning it helps you to use those
+other combos which I just gave here the moment
+[088:59] you stop respecting Tempo in Rhythm while
+also not using symmetrically opposite inputs
+[089:05] it's the moment that your car is going to
+stop going straight and you might lose your
+[089:10] clean constant feedback but then again just
+wait for the next Revolution mate now I personally
+[089:17] don't use the diagonals combo often I would
+say less than five percent of the time um
+[089:23] as I just don't like the feeling I get but
+you'll see me use clocks double clocks left
+[089:28] right A lot especially in rings map um and
+sometimes you want to actually feel like I
+[089:34] need the vertically straight nose the up down
+combo I'm talking about air dribbles during
+[089:39] which I get maybe too much speed when I get
+under the ball and I almost get Beyond it
+[089:46] but then when he hear me talk about combos
+don't stick with that idea yeah it's not about
+[089:52] the combos I'm here to analyze with you what
+the combos do their their little specific
+[089:58] traits again their subtle nuances but it's
+not about combos it's not about that it's
+[090:04] about Tempo Rhythm constant and getting feeling
+out of all of this and you could get feeling
+[090:10] while doing something that is not a constant
+but your feeling would be bad that's the only
+[090:17] reason I talk about all those things but don't
+get your head just uh twist it with all the
+[090:23] combos because this is not uh this is not
+Street Fighter yeah this is rocket League
+[090:29] what I mean is just don't put too much importance
+on me when I say when I talk about even the
+[090:36] word combo yeah all right don't be blinded
+that's what I mean because the combo is nothing
+[090:41] more than a feedback loop so you have many
+feedback loops not just the clocks you have
+[090:47] all of those combos oh by the way we can now
+change the definition finally of looking as
+[090:54] we now have more constants or combos to make
+us go straight and get feedback we can now
+[090:59] say that locking is the action of using a
+combo or using a consonant that will make
+[091:04] you go straight right after having chosen
+a vector or Direction instead of just having
+[091:09] to do it with clocks so you want to go right
+jump boost and then press air ball while putting
+[091:14] your joystick up and to the right when the
+vector has appeared and you've chosen how
+[091:18] tight you want it use any combo clock reverse
+double clock up down left right right angles
+[091:23] and go straight because remember the combos
+are nothing more than feedback loops all right
+[091:30] I'm going to summarize everything I've said
+in a big ass nutshell in about 30 seconds
+[091:38] time but before that I'm going to give a floating
+tip the more inputs the less the car makes
+[091:44] big adjustments the more it goes straight
+and the more speed you get because your car
+[091:48] is straight compared to like a tornado which
+makes you lose speed obviously now the second
+[091:53] floating tip the moment you spend too much
+time on an input is the moment your car starts
+[091:59] changing its main vector that'll be the last
+time I say that kind of makes me feel I don't
+[092:06] know nostalgic or something yeah now let's
+summarize everything all right let's summarize
+[092:12] a big ass in a nutshell of all we have learned
+it's going to be very quick um here we go
+[092:19] three pillars feeling constant Tempo slash
+Rhythm then we have the clock or the double
+[092:25] clock or the triple clock and after the clocks
+we have locking and clocking which is done
+[092:30] by catching the clock and after that we have
+refreshing the car after that we have turning
+[092:37] while using feedback loops then after turning
+we have calibrating which allows us to turn
+[092:42] the nose of our car slightly in between a
+revolution so that we can change direction
+[092:47] easily while not making the U-turn then after
+calibrating which is a thing in itself but
+[092:53] also an introduction to the next chapter we
+have the reverse clock which is how to U-turn
+[092:59] or make very hard turns left and right but
+again if you use half a reverse clock that's
+[093:04] the actual way of turning and you have two
+speed a slower one that makes you turn and
+[093:09] a faster one that gives you verticality then
+we have other combos which work the same way
+[093:15] as the clock concept so we have the reverse
+double clock the up down and the left right
+[093:20] and then finally we have the diagonals the
+method could be shortened to this just remember
+[093:27] to learn when to let go of boost by yourself
+but you know what I am a man full of surprises
+[093:35] and I will not leave you there hanging so
+you and I we're gonna stick together just
+[093:40] a little bit more and we're gonna see a bit
+about boosting and other stuff in the next
+[093:46] section I'll see you right there
+[093:47] I believe that what is often missing in a
+method are the actual opinions and thoughts
+[093:59] of the person who made it in theater we have
+Theory then practical method but I've always
+[094:03] believed that after those two things a third
+part should always be present thoughts this
+[094:10] is hands going to be a mix of tips remarks
+how I train tips why when and how I did this
+[094:15] method as well as other thoughts number one
+say directional air roll is one of the slowest
+[094:24] mechanics to learn in this game I believe
+that hence it should be the one to learn the
+[094:28] fastest and I do believe it can so air roll
+more than a mechanics is a flying technique
+[094:37] and you can apply it to other games like GTA
+or Battlefield or any actual game with planes
+[094:43] that allows you to air Rule now the only difference
+is going to be the sensitivity of the flying
+[094:50] in those games this technique is a technique
+because it gives you car control it's not
+[094:56] just the mechanics it's a way to control your
+car in the air hence the fact that it unlocks
+[095:03] your mechanical potential as a player number
+two when learning the clock in Practical training
+[095:10] like Rings or redirects press boost for one
+revolution this is very important if you don't
+[095:17] make any joystick inputs do not press boost
+be very careful and very consistent with that
+[095:23] otherwise it might mess your brain up not
+pressing boost or fluttering boost or not
+[095:28] pressing boost for one revolution while you're
+trying to work on a constant such as the clock
+[095:32] will break your muscle memory which is essentially
+here to recognize muscle patterns and we're
+[095:38] trying to create them so one clock one constant
+boost unlike what that coach says on YouTube
+[095:46] and I'm making quotation marks with my fingers
+right now do not stop pressing boost when
+[095:52] you're implementing a muscle memory constant
+all right I still can't believe he said don't
+[095:57] press boost all the time but please do alright
+number three play in Letterman's ringmap for
+[096:06] the clock and I would recommend what you've
+seen me do here knee and heart Rings map as
+[096:10] it's maybe the easiest number four at the
+same time of doing rings I played some custom
+[096:18] trainings regarding Aerials only using clocks
+and double clocks with locking vectors basically
+[096:25] after saying that the ball would go up left
+at a certain speed I knew I needed to do one
+[096:31] clock with full Boost and then right into
+locking a clock to get to the ball at that
+[096:36] point I discovered the notion of calibrating
+because I saw I was missing something number
+[096:41] five when you're done with a simple clock
+or double clock you may want to start Feathering
+[096:47] your Boost right this will increase your learning
+abilities for you will start to work on a
+[096:52] different variable while using a solid constant
+basis that you have built at the same time
+[096:59] and that's the magic of it you'll also reinforce
+what you've learned to feel about the clock
+[097:04] because you are one beautiful mother purist
+number six now keep in mind that when your
+[097:12] vector isn't towards the center of your screen
+your perception of the Revolution will be
+[097:17] different your car might be ready for the
+next Revolution but your hood won't be in
+[097:23] front of you this happens a lot whether you're
+using ball cam or not every time the direction
+[097:28] where you want to go isn't facing towards
+you it'll change the more accented your aim
+[097:35] the more changes in perception you get if
+the ball goes over you your brain is going
+[097:39] to wrinkle that's a good moment to decide
+to refresh your Revolution like the 20th level
+[097:44] of lesmere's rings but your Revolution will
+keep going as normal don't you forget that
+[097:50] so you should refresh it when you think or
+believe or feel that it will be easy for you
+[097:53] to find a revolution to work within the next
+second you don't have to refresh anything
+[097:59] by the way if you keep your feeling right
+I mean correct all right if you keep your
+[098:04] feeling correctly you might not even need
+to refresh it but the perception is and that
+[098:09] is a fact is going to mess you up it's like
+someone preventing you to do something that's
+[098:15] what perceptions do in this game number seven
+when I got the clock concept I had not tried
+[098:25] nor discovered double clocks yet I first tried
+it in rings and after a few days the 24th
+[098:31] of July 2021 I finally finished let me's neon
+heart rings in and get this 43 minutes 49
+[098:40] seconds after 83 deaths I was happy and then
+I was unhappy after that I went to free play
+[098:47] and after that I went to redirects this as
+I said is when I discovered the concept of
+[098:53] calibrating I had done it without knowing
+what it was in rings but I had been conscious
+[098:59] of the feeling while doing it so I started
+experimenting I put my car upside down on
+[099:03] the ground pressed left and went damn it I'm
+so freaking stupid it was in front of me the
+[099:09] whole time the next days I had it I went back
+to Rings after becoming better clocks and
+[099:15] calibrating when I suddenly failed the need
+to try wall to air dribble slash air drags
+[099:20] I'm not [ __ ] you when I say I instantly
+or almost instantly got it like I don't stream
+[099:29] per se but I stream to my friends and the
+first clip of my channel was me yelling my
+[099:34] friend clip it please clip this clip clip
+it okay the only difficulty was to understand
+[099:41] that I needed on both walls to start with
+a tornado spin though joystick to the right
+[099:46] and then starting my clock as soon as the
+hood of my car was aligned with the ball keep
+[099:51] in mind the right wall feels more difficult
+than the left one when using left ear roll
+[099:55] and vice versa it's just a feeling because
+we're here to learn well and hard we are what
+[100:01] we call purists we will prefer working on
+the right wall if it's harder when we get
+[100:08] it we'll even be better at it so the only
+moment you go to the left wall is when the
+[100:14] game spawns you to the right wall alright
+that's the only moment you can allow yourself
+[100:20] that guilty pleasure of trying an air dribble
+or Air Track on the easiest wall good good
+[100:27] number eight so now you know a bit more about
+how to get a reset getting a reset is pretty
+[100:35] easy all you have to do is get to the wall
+and jump and at the very last Revolution before
+[100:42] your car hits the ball you're going to want
+to make a quarter of a reverse clock starting
+[100:49] from the reverse tornado spin so if your left
+L rolling you want to put your joystick to
+[100:55] the left and then down if you're right air
+rolling you want to put your joystick to the
+[101:01] right and then down and that should put you
+in a good position to get a reset easy number
+[101:08] nine the better you are at clocks the better
+you are at every other combo take the clock
+[101:15] as the foundations or field building now that
+you're pretty decent at it now that you've
+[101:22] trained your rhythms within the tempo the
+other combos just feel like kind of natural
+[101:27] I'm pretty sure you'll feel more comfortable
+with a double clock like I do but again we
+[101:30] don't want to be decent at this we want to
+be actually good so even if you're to drop
+[101:34] the clock for the double clock still work
+up your feeling of what the clock is and does
+[101:40] it is Paramount of course do the same with
+a double clock but don't forget the symbol
+[101:45] clock I would advise doing reverse double
+clocks after the clock and then the rest of
+[101:50] the combos reversible clock might mess up
+your brain the first time you try to train
+[101:55] it because the feeling is not as big as you're
+not fighting the air roll Direction which
+[102:00] is left with your car going right but instead
+you're almost enabling it but I can guarantee
+[102:05] you it'll take you no time until you think
+okay I just I understand the point because
+[102:10] by then you'll have understood the feeling
+of Rhythm you need and you will have again
+[102:14] a basis of what feeling is so if you get another
+feeling well you can still recognize this
+[102:21] as a new feeling so as a feeling okay that's
+what you need to be good at good good so very
+[102:28] soon after that doing the reverse double clocks
+you'll start using less clocks and more of
+[102:33] the all-around combos as you will have understood
+one some specific angles in inputs by empiricism
+[102:39] and two that the tempo rhythm is actually
+all there needs to be applied and I am repeating
+[102:44] myself and I will keep doing so until the
+end of the video because I want this to be
+[102:49] clear just remember as soon as you stop giving
+inputs you will lose your feedback the better
+[102:55] we get at this the less we need feedback for
+we will know some things by heart so through
+[103:01] the use of a method we've been able to help
+empiricism instead of letting it do all the
+[103:07] work but remember when you're lost when you're
+in doubt go back to the constants do some
+[103:14] clock-like patterns Hood facing you and you
+should be good to go all right number 10.
+[103:22] a little note on feeling we can make a little
+a little scheme of how that goes so no feeling
+[103:29] nor feedback gets to input made in a consistent
+manner gets to feedback gets to feeling so
+[103:37] see this as an engine if you actively keep
+it rolling you will keep feeling it and it
+[103:43] will allow you to feel it so it's like a virtuous
+cycle it's like a paradox all right if you
+[103:50] keep using it you'll keep feeling and this
+will help you keep feeling all right so thus
+[103:58] controlling it thus actively making it go
+and go and go it's again a virtuous cycle
+[104:03] until you decide to stop or you [ __ ] it
+up which is not you wanting it to happen but
+[104:08] it happening whenever you stop you stop getting
+feedback and thus feeling and thus control
+[104:14] unless you've spent enough time working on
+your feeling and now finally thanks to empiricism
+[104:18] you know what to do next but here as we are
+learning this is not going to be here this
+[104:23] might be here in like a month number 11 10
+11 number 11. rolling the RS I first started
+[104:34] thinking about making a tutorial at the same
+moment there was a controversy about rocket
+[104:38] League dying in the summer of 2021 at that
+moment I was eating drinking and sponging
+[104:44] up every YouTube and stream tutorial I could
+find about directional Arrow I knew that when
+[104:49] I could do it my whole gameplay would change
+all I could hear from people for a few weeks
+[104:55] was the state of Rocket league and famous
+content creator saying what the game Need
+[105:00] is but none of them talked about the fact
+that people might just stop playing it because
+[105:04] they didn't succeed doing all the cool stuff
+other people did and yes I was feeling frustrated
+[105:10] about being part of them I wanted to learn
+it badly and I should stress that more I wanted
+[105:16] to learn it badly and I was dead curious now
+there's an ad Edge that goes whom seeks will
+[105:24] find that was my motto for Rocket League every
+day I knew I would not be as good as the day
+[105:30] after and that kept me going do not focus
+on what you can't do right now focus on the
+[105:37] fact you're actually right now at this very
+moment right now is your [ __ ] things up
+[105:42] and you feel desperate you're already working
+on being better for tomorrow look for it as
+[105:48] though it was a Christmas present you're waiting
+for you know you're gonna get it so I kid
+[105:53] you not if you tell yourself tomorrow I will
+get that specific thing that I just messed
+[105:58] up right there because you accept that it
+doesn't have to deal with your will or your
+[106:01] present skills but that what you're doing
+now will be sponsored up by your brain and
+[106:06] forged into what we call muscle memory you
+will learn this faster than I expected to
+[106:12] but if you want to learn you're going to have
+to use dedication and that's discipline and
+[106:17] for that I can't really do anything for you
+so hopefully I'm clear when I say that if
+[106:22] you don't really want to do it and you don't
+want to you don't want to give in the time
+[106:26] you're not going to do it it's like playing
+yasua on League of Legends if you play for
+[106:31] like two weeks thinking I want to be a goodyearso
+player and the very first time you feel so
+[106:36] depressed by playing it that you stop then
+you're never gonna play it again what you
+[106:41] should have done is at that very moment where
+it was the hardest for you to keep playing
+[106:46] yasiro you actually kept playing Yasuo that'll
+be the last League of Legend thing I said
+[106:51] because I hit the game um so again still in
+number 11 nothing that you're training here
+[106:58] is a waste of time all right nor is it speculation
+we're not speculating you are currently training
+[107:05] so try somehow to put your ego aside because
+you're failing and yes that is your ego talking
+[107:14] not you that's your ego that's stupidity that's
+laziness all right try to put it aside and
+[107:20] realize that this is how one learns I believe
+in their work smart not hard motto but I also
+[107:28] believe that nothing has ever been done without
+hard work thing is hard work can be passionate
+[107:34] work like lazy people and gurus will try to
+make you forget that by saying you're working
+[107:39] too hard these people don't want you to succeed
+because they don't want you to achieve their
+[107:43] level work hard be a purist be curious understand
+for yourself and never ever take things for
+[107:52] granted especially if someone tells you that
+what you're doing is pointless in two months
+[107:59] this guy will still think he's good because
+the game has put him in a C2 Rank and he still
+[108:03] can't fly but he doesn't give a [ __ ] because
+his ELO is enough while you can casually Frip
+[108:07] preset on his ass all right people who say
+freestyle is useless of people who don't understand
+[108:14] the game for what it truly is they take the
+game as it's given to them there's no gc3
+[108:19] that can't flip reset on you there's no gc3
+that can't casually do a ceiling musty no
+[108:26] they can all do it all of them that's the
+correlation the correlation is that mechanics
+[108:32] are the essence of Rocket League alright enough
+of that number 12. there is nothing more annoying
+[108:40] to me than hearing people talk about this
+setup the setup is nothing important compared
+[108:46] to actually controlling your car in the air
+you can get all the worst setups in the game
+[108:52] if you know what you're doing while flying
+you're still gonna do something and feel good
+[108:56] doing so even if the move itself is bad so
+yes there are great setups and you can use
+[109:03] them to your advantage because it's going
+to be easier but setups are nothing so every
+[109:10] time you see a video talk about um the setup
+or you need to bind some buttons I mean if
+[109:18] you haven't figured that out by yourself before
+unless this video is the first you've ever
+[109:25] seen about it uh just quit the video you're
+not going to learn anything that person is
+[109:30] not going to tell you anything important right
+right so one of the perks as I said of directional
+[109:36] arrow is that where you know how to do it
+and you're trying some other mechanics in
+[109:40] freeplay if you miss that said mechanic or
+if you get frustrated every aerial moment
+[109:46] can be a satisfying one by just starting dribbling
+the ball in the air you will feel good about
+[109:53] yourself just because you still managed to
+do it again don't take that for granted that's
+[109:59] the best thing all right number 13. I talked
+about it before but I'm going to talk more
+[110:05] about it now people who say don't work hard
+work smart are people who don't want you to
+[110:12] succeed indeed do work hard but with a plan
+work hard methodically that's how you get
+[110:21] better don't be stupid thinking you can work
+smart I did that for you with this method
+[110:27] don't think you can just watch this method
+understand it and then tomorrow know how to
+[110:33] directional air roll no because that's disrespecting
+your whole body your brain your fingers just
+[110:40] because you understand something with your
+brain doesn't mean your muscles do so if you
+[110:44] actually smart you're going to give yourself
+just a little bit of time so that your body
+[110:49] manages to tag along per se all right so train
+hard on something that someone else tried
+[110:56] to find a smart way to work with like I did
+but yet do train hard working hard is being
+[111:04] a warrior work the hell out of directional
+air Rule and any other Mechanics for that
+[111:11] matter but don't rely entirely on empiricism
+instead use a method like mine or another
+[111:18] one as soon as someone else will create another
+that is as honest as I claim mine to be and
+[111:23] work hard on that method the method is smart
+now you go and put in the work you have to
+[111:32] again don't follow those gurus who say don't
+work hard work smart because those people
+[111:37] in reality don't want you to succeed ever
+they don't want you ever to have the same
+[111:43] level they have otherwise you would not need
+them anymore and if their so-called coaches
+[111:48] on social medias the only reason they do that
+is because they want you to pay for their
+[111:53] coaching lessons so don't be a sheep to those
+gurus those people love that you do not succeed
+[112:00] because they love that you depend on them
+so that you feel like you're never good enough
+[112:05] that you're never enough without them don't
+depend on those people depend on your own
+[112:11] will to get better and understand what you're
+doing just because it's brain racking does
+[112:17] not mean it's not understandable many people
+will know which YouTube I'm referencing here
+[112:22] but don't listen to those people be self-sufficient
+in a smart hard-working way because yes of
+[112:28] course you can do both like everything in
+life has a method like from learning how to
+[112:33] play an instrument to learning how to draw
+to learning how to code and we can continue
+[112:37] this list even in daily tasks like cooking
+every everything or basically everything let's
+[112:43] not go to extremes here is done with a method
+so working hard with only experience as a
+[112:49] teacher is as stupid as only working smart
+do both learn hard in a methodic way number
+[113:00] 14 do also keep in mind that as I said a method
+is just one concept of an idea someone else
+[113:09] might very well build another method that
+might suit you more as far as explaining or
+[113:13] even combos or an understanding of movement
+is concerned I just hope that whoever does
+[113:19] it loves the game and teaching at least as
+much as I do and tries to put the necessary
+[113:24] time however crazy log it may seem to explain
+everything they know in depth if that's what
+[113:30] they claim to do number 15. do not be silly
+car control comes before board control we're
+[113:40] trying to learn how to air roll of course
+car control comes before ball control how
+[113:46] would you manage to control the ball in the
+air if you can't control your car in the air
+[113:50] easy step but I still said it number 16 this
+method was specifically made for PC and controller
+[113:57] players if you play on k m if you're on Console
+the concepts presented in this video are still
+[114:03] made to be translated to your own gameplay
+now I can't do cyanog's job especially if
+[114:09] they don't pay me and present to console players
+some maps or ways to translate custom maps
+[114:14] helpfulness but you can do it yourself as
+the Notions I chose are translatable such
+[114:19] as Tempo and Rhythm and constants they are
+translatable to anyone now I did my best but
+[114:26] it might so happen that my best cannot ever
+be enough even though I did try number 17
+[114:36] feedbacks need to be felt then recognized
+then known then controlled then played with
+[114:42] or manipulated such as constants need to and
+given that constants give your feedback if
+[114:48] you do your constants correctly your feedback
+also will be built correctly makes sense yes
+[114:55] it does number 18. I have thought about the
+fact that naming this with my game attack
+[115:02] can be pompous but in the end no one has done
+it yet it took me a long time this is not
+[115:06] an 8 minute or 15 minute video claiming to
+be an exhaustive thing it's a one hour and
+[115:12] a half thing it's a one hour and a half of
+this I'm claiming to be as much exhaustive
+[115:22] as I can make it so far from me to be that
+much of a Nega Centric douche I will allow
+[115:27] myself that little pleasure it's important
+to reward yourself sometimes number 19 the
+[115:34] clips that you've seen here may not be very
+good nor very mechanical in fact I'm neither
+[115:39] good nor mechanical but I know a back directional
+air roll now take this into consideration
+[115:46] whether you're new at the game and can't error
+or your gcn consider the clips to be [ __ ]
+[115:52] I don't claim my Clips to be good and my Clips
+don't claim to be anything close to freestyling
+[115:58] they are about air roll they don't have all
+a perfect setup they don't even all have a
+[116:03] setup to start with they're here to show I
+can do it and here to support what I talk
+[116:09] about if you're better than me naturally if
+you have more Talent than I do it's all the
+[116:15] better reason to use this talent to profit
+with that comes your work good hello everybody
+[116:24] lossman here I've started this method in 2021
+it took me nine months to write it then I
+[116:30] started editing it uh last year's July of
+2022 so it's almost been a year since I've
+[116:38] started editing it we're back here today for
+the last chapter of the method the exercises
+[116:46] so how's this going to work we're going to
+have fun doing a few exercises and I'm going
+[116:51] to ask you to do them at home at least 30
+minutes per day for at least one week and
+[116:59] you should see some results I've been streaming
+now on Tick Tock and twitch for about four
+[117:06] months and I've been teaching my method to
+quite a few people actually in general if
+[117:12] you learn Arrow by yourself it should take
+you about 100 hours in about a month if you
+[117:17] learn it with my method it should take you
+about two weeks two weeks and a half in about
+[117:22] 30 to 50 hours so it's quite a good result
+and I'm quite happy with it so today we're
+[117:27] going to see the exercises that you already
+know because it's all of the exercises we're
+[117:32] going to do are things that we've seen in
+the methods now I'm going to translate sometimes
+[117:39] for right elbow users as I'm left aerial and
+that's what I'm used to doing all right so
+[117:46] let's go the first exercise is going to be
+this one tornado spin into reverse tornado
+[117:53] spin at each Revolution
+[117:55] now if you do it correctly you should go straight
+because we now know that tornado Spin and
+[118:03] reverse tornado spin are not directional inputs
+so you should be going straight when you do
+[118:07] that the point of this exercise is to teach
+you about tempo
+[118:17] so to do your inputs at the beginning of the
+revolution all right
+[118:24] that's the first exercise what's the second
+exercise going to be is going to be getting
+[118:30] your car vertical tapping boost yes I said
+that one should always press boost constantly
+[118:36] but for this exercise we're going to tap boost
+and we're going to air roll and then we're
+[118:41] going to make one input down one input up
+this exercise is going to be divided into
+[118:47] three faces three phases yeah the first phase
+is just to make one quick directional input
+[118:55] one one one at each Revolution as such the
+second phase is just holding the input for
+[119:04] one half of a revolution so one half one half
+one half one half one half all right just
+[119:14] like this that's the second phase the second
+stage if you will notice that every time I'm
+[119:22] keeping an input on my joystick I'm pressing
+boost and if I'm keeping the input I'm keeping
+[119:28] pressing boost all right now the third face
+is just like the first exercise but with directional
+[119:35] input so one revolution each all right
+[119:42] now what we're going to do is that at every
+time we add an exercise we're going to do
+[119:47] all of the exercises quickly vertically all
+right so that was the second exercise the
+[119:53] third exercise is going to be the clocks so
+if you left aerial user you're going to start
+[119:59] from far right and do a clock one clock per
+Revolution you can do it without boosting
+[120:06] and if if your camera changes it means that
+you would have turned if your camera does
+[120:10] not change it means that you would have gone
+straight okay so clock
+[120:15] and if you get too much to the left like me
+what does that tell you tells you that I should
+[120:24] have calibrated more but we'll get back to
+calibrating
+[120:30] all right clocks
+[120:42] all right now let's try double clocks two
+clocks one two one two one per Revolution
+[120:53] one two one two one two the double clock is
+easier because the margin for error is is
+[121:02] uh smaller why because you're making inputs
+quicker which means that there is less time
+[121:07] for you to mess it up if I start doing clocks
+again see I'm messing it up a little
+[121:13] so double clocks we're not going to do triple
+clocks here because I don't I don't see any
+[121:21] value in doing that for the exercise you really
+don't use triple clocks when you're flying
+[121:25] you're going to use triple clocks when you're
+doing Rings map all right but not when you're
+[121:30] flying in this mode so now that we have our
+first three exercises we're going to do all
+[121:34] of them vertically quickly so tornado spin
+reverse tornado spin tornado spin reverse
+[121:41] tornado spin now first phase of the second
+exercise and if you miss it up that's okay
+[121:48] just go back down and start again so first
+face of the second exercise second face I
+[121:55] mean phase is not face and finally the third
+phase with a whole Revolution as such notice
+[122:05] that I'm using up and down inputs and not
+the inputs relative to the tornado spin because
+[122:10] that's just how I'd rather do it all right
+good now the fourth exercise is going to be
+[122:17] lock and clock lock a vector and clock it
+lock a vector and clock it so here I'm using
+[122:25] upright and down down right but I could be
+using up and down I do up and I do down login
+[122:35] clock again is not really how you turn locking
+and clocking is just here to make you consciously
+[122:44] do some feedback loops as as soon as you can
+in your training not even in your training
+[122:49] and you're learning uh in your learning phase
+right so locking and clocking is just here
+[122:58] to make you use feedback loops on top of directional
+inputs all right good now we do all of the
+[123:08] exercises quickly and vertically so first
+exercise notice that I'm managing my Boost
+[123:15] here but you you don't need to do that right
+second exercise first phase one quick input
+[123:24] so up down up down good second phase of the
+second exercise half a revolution
+[123:37] good and third face a whole Revolution
+[123:44] now we quickly do clocks and double clocks
+so one clock one double clock one clock one
+[123:55] double clock good and now we're going to lock
+and clock vertically as much as we can and
+[124:00] if you crash that's all right mate lock and
+clock lock and clock lock and clock good good
+[124:10] all right after locking and clocking comes
+calibrating so quickly we're going to calibrate
+[124:17] here here here here so between 25 and 50 percent
+out of the river of the Revolution I'm going
+[124:25] to put my joystick in a tornado spin fashion
+right and I'm going to hold it in between
+[124:33] 25 and 50 of the Revolution which is between
+here here and here all right so calibrates
+[124:42] just like that very simple all right a bit
+more calibrates calibrates calibrates good
+[124:54] now I'm going to do all of the exercises vertically
+again so tornado reverse tornado tornado reverse
+[125:02] tornado now first phase of the second exercise
+one small input one small input one small
+[125:09] input one small input now in the second phase
+X going to be half a revolution
+[125:20] if you do this correctly you should be going
+straight because you're canceling all of the
+[125:24] inputs and then the third phase which is one
+revolution one revolution one revolution one
+[125:31] revolution one revolution all right cool now
+we go to the clocks one clock one double clock
+[125:39] nice one clock one double clock good now lock
+and clock and clock again lock and clock and
+[125:52] I still want to do it here looking clock see
+I just held my inputs up and I just waited
+[125:57] for one revolution and then I almost won Revolution
+Then I then I locked so lock and clock lock
+[126:05] and clock good and then we're going to calibrate
+vertically so we're going to tab boost here
+[126:12] and we're going to calibrate all right
+[126:18] again
+[126:23] boom and boom boom and boom right cool now
+the last exercise that we've seen which is
+[126:33] an addressable and two musty double to I'm
+kidding now the last exercise is going to
+[126:37] be the reverse clock so reverse clock starting
+from down as such now reverse clock starting
+[126:46] from up so I'm going to go vertically I'm
+going to go vertical and then do the reverse
+[126:50] clock vertical do the reverse clock but now
+as you know the truth about turning is both
+[126:59] giving it directional input input at the beginning
+of the Revolution but also keeping inputs
+[127:05] going during the revolution that's why the
+reverse clock is here now you're going to
+[127:12] notice two things as we've seen there are
+two speeds now for the reverse clock there's
+[127:17] the slow speed and there's the fast speed
+the slow speed is going to make you turn so
+[127:22] if I go down right up down right up this should
+make me go to the left because I'm starting
+[127:30] with a down input which is a input that makes
+me go left right so if I do it slowly I'm
+[127:36] going to turn right good now if I just do
+it a little bit quicker here's what's going
+[127:42] to happen I'm going to go vertical we've seen
+that but now we want to do it consciously
+[127:46] all right and I want you to do it consciously
+so do it do it quicker and the second half
+[127:54] of the reverse clock is just the opposite
+instead of going down right up we're going
+[127:58] to go top left down so if I go top left down
+slowly I go I turn to the right all right
+[128:06] if I do it slowly it's not slowly it's slowly
+enough if I do it slowly enough I'm going
+[128:12] to go right but now if I do it much faster
+I'm going to go horizontal right horizontal
+[128:20] it's the opposite as as this one all right
+good now we're going to do all the exercises
+[128:27] so tornado spin reverse turning the spin first
+phase then of the second exercise
+[128:40] first phase boom boom boom boom second phase
+half a revolution so have a revolution half
+[128:49] a revolution half a revolution good now full
+Revolution
+[128:54] good now clocks and double clocks clocks and
+double clocks good
+[129:05] now we're going to go lock and clock lock
+and clock
+[129:13] lock and clock Goods now we're going to need
+to calibrate
+[129:21] boom boom boom boom boom good now we're gonna
+do we're not we're not even gonna bother with
+[129:29] the whole reverse clock we're more interested
+in the two halves of the reverse clock yeah
+[129:35] so we're just gonna go slow speed turning
+left and turning right and faster speeds going
+[129:45] vertical and going horizontal all right you
+can actually just have fun trying to trying
+[129:53] to get vertical and horizontal again
+[129:58] so I'm going vertical horizontal vertical
+horizontal all right good now one last thing
+[130:06] that I want you to do is to add to all of
+this the other combos remember remember the
+[130:14] combos right left right left up down diagonals
+the combos are essentially other feedback
+[130:24] loops just like the clock the clock is a conceptualization
+a tangible conceptualization of a feedback
+[130:32] loop so it's going to make you go straight
+and it's going to give you feeling with your
+[130:35] car right so you can do this around the exit
+either at the end of everything or during
+[130:42] the exercise number three which is the clocks
+so instead of doing clocks what you want to
+[130:47] do is just go right left right left right
+left right left right left right right there
+[130:52] just like that all right and try to get a
+feel of the car that's the most important
+[130:58] thing trying to get a feel for the car all
+right same thing with up and down but if you
+[131:06] don't do it if you don't do it fast enough
+you're going to turn so you really have to
+[131:10] be fast with this one
+[131:14] see so I'm not being precise I'm I don't I'm
+not meaning to make this I mean to do this
+[131:19] but I'm going very fast with my joystick so
+it appears like I'm not doing it when actually
+[131:24] that's what I want to do so don't freak out
+[131:30] all right so you just want to add this to
+all of the exercises just combos feedback
+[131:35] loops all right the point of all of these
+exercises are to consciously make you do phenomenons
+[131:40] that happen in game when you actually enroll
+so we want to help muscle memory build itself
+[131:48] and instead of relying as muscle memory as
+the only tool we now have knowledge and we
+[131:54] have practical exercises that will make make
+it so muscle memory and empiricism is not
+[132:02] the only tool you have while learning how
+to use directional Arrow good good so once
+[132:10] you've done all of these exercises the same
+way that I did them you should start trying
+[132:15] to have fun and trying to mingle to mix up
+all of those exercises vertically because
+[132:22] when you're going to start learning how to
+Arrow you're going to fly like this you're
+[132:26] not going to fly like me during a Rings map
+horizontally you're going to fly vertically
+[132:30] all right you're going to fly vertically and
+when you start you're going to make one input
+[132:35] per Revolution but the better you are and
+the better you are at reverse clocks the more
+[132:41] you're going to mix up things all right so
+what I want you to do now is to do this exactly
+[132:49] just mix those exercises up for instance I'm
+gonna go vertical up down for one revolution
+[132:57] I'm gonna go up clock and then we're going
+to calibrate there we go then I'm gonna do
+[133:04] one reverse clock reverse clock see I did
+it very slowly here so that I would turn another
+[133:11] reverse clock I'm gonna go to the ground and
+again you want to mix those things up so clock
+[133:20] up clock feedback loop
+[133:23] all right and you even if you crash it's all
+right we're not here to be perfect we're here
+[133:31] to learn yeah so just mix those things up
+all of the phenomenons slash combos that we've
+[133:39] seen slash exercises that we've just seen
+I want you to do them and mix them up a little
+[133:46] have fun with them so I'm gonna go horizontal
+vertical tornado spin clock uh it was too
+[133:53] late so down up into clock I'm going to calibrate
+I'm going to go clock down clock down clock
+[134:06] again so lock and clock basically locking
+clock here again I'm going to calibrate I'm
+[134:11] going to do one one uh reverse clock all right
+so just have fun with these things all right
+[134:20] these exercises should be done in the same
+order that I've given them all right because
+[134:27] I believe I've given them from really the
+easiest to the hardest it's going to be easier
+[134:33] for you to do the second exercise is this
+one rather than a reverse clock because in
+[134:42] order to calibrate and do reverse clocks well
+the truth is it's more advanced yeah you're
+[134:47] going to have to be used to what rhythm is
+what rhythm is what what the tempo is and
+[134:53] feel a bit more comfortable with your joystick
+by the way calibrating is just an introduction
+[135:01] to reverse clock so calibrating is something
+in itself when I do Rings map sometimes I
+[135:06] tell my stream hey I just calibrated and I
+literally I was uh I would be flying like
+[135:10] this and I would calibrate and I would tell
+my my viewers hey I just calibrated right
+[135:15] but it's also an introduction to the reverse
+clocks this all right just like this exercises
+[135:24] that we did in the method when you go up and
+here so when you do the directional input
+[135:29] into calibrating well what is this tell me
+what this is yeah that's a reverse clock all
+[135:37] right upright into calibrating is a reverse
+clock in left air rule obviously and right
+[135:42] L it's upright into into calibrating to the
+right but calibrating so it's something in
+[135:48] itself right but it's also an introduction
+to a more advanced way of flying which is
+[135:55] using your whole joystick okay good well I
+think we we said here you have all of the
+[136:03] exercises do them at least 30 minutes per
+day just for one week and and see how it goes
+[136:10] yeah because you see you should see some changes
+I guarantee you well um I'm going to leave
+[136:17] you with the last point of the method which
+I actually wrote and recorded about one one
+[136:23] year and a half
+[136:26] one and a half year ago well English Jesus
+so um it was a pleasure doing this method
+[136:33] if you'd like to see me stream well I stream
+every Thursday at 10 pm European Time and
+[136:41] I teach my method in French but if a few English
+speakers come here and there I'll probably
+[136:47] do another stream during the week only in
+English all right I hope you liked it um I'm
+[136:54] Gonna Miss This this took me a lot this took
+me nine months to write it's a 27 pages long
+[137:03] word document the editing is about one year
+old so I really hope I could help you with
+[137:12] that and I really hope you enjoyed it as much
+the content as much as the thought process
+[137:18] behind it
+[137:26] now this is gonna be the last point it's number
+20 because I like things to be neat and I'm
+[137:31] going to repeat myself with it keep in mind
+that you will not manage to do this in one
+[137:36] day obviously not it takes training but it'll
+never ever ever take you as long as you thought
+[137:43] it would take you if you use my method I am
+confident about it if anything you might even
+[137:48] learn it faster than I could ever imagine
+but please for the love of God remember that
+[137:55] you are learning something new something complicated
+and that your brain has to sponge it up we
+[138:03] are dealing with mechanical issues your brain
+will take its own time to deal with it you
+[138:08] are not stupid and you do not suck because
+you don't manage to do it yet what is going
+[138:13] on actually is that when you mess it up you
+are learning to be better for tomorrow so
+[138:18] every time you [ __ ] things up mate listen
+to me mate it's getting personal now listen
+[138:23] to me mate every time you [ __ ] things
+up is the best version of you so far so every
+[138:28] time you [ __ ] things up you're working
+for tomorrow and tomorrow you won't [ __ ]
+[138:34] that thing up again or you will understand
+something about it yeah good tomorrow you
+[138:39] will be better and this is the least thing
+you want to take for granted or ignore it's
+[138:45] not just a sentence it is what will happen
+this game is not chess except the fact that
+[138:51] your body obviously your hands finger and
+hand-eye coordination is what's at work we're
+[138:56] not trying to be smart players here let's
+leave that to the people who specialize in
+[139:01] strategy here we're building our hand-eye
+coordination and some weird part of the game
+[139:06] to get some muscle memory today you suck ass
+tomorrow you'll be able to do what you didn't
+[139:13] do today I'll never be able to stress that
+enough you won't get this by tomorrow but
+[139:18] you might get it within the month do you realize
+within the month may please do not underestimate
+[139:25] this whole paragraph or you will eventually
+give up when had you given yourself a few
+[139:30] more days something would have clicked because
+that's how learning is rocket league and directional
+[139:36] air roll and all the mechanics everything
+that is mechanic in life that needs mechanics
+[139:41] and skill is a great teacher okay you train
+your ass off you blame and your rant and you
+[139:49] shout and you throw your controller and then
+you go get a new one at 70 [ __ ] bucks
+[139:53] but without knowing why the next day you pick
+it up check if it's broken nice it's not because
+[139:59] it's a new 70 bucks one you're going to free
+play and suddenly you're controlling your
+[140:03] clock you get it the next few days as you're
+learning to master it and now that you can
+[140:09] control it you realize okay I get what he
+says when he says that I feel the need to
+[140:13] calibrate in it then you start calibrating
+and then all of a sudden you understand because
+[140:19] you feel and you've learned how to feel how
+to get your damn car pointing to the right
+[140:24] when it appears to be stuck to the left every
+day and every time you're assimilating something
+[140:29] you're failing it's normal and it's nothing
+but great this means that as you live out
+[140:36] your day your brain is still working on it
+every time you fail you're feeding your brain
+[140:42] it seems like it's telling you that it's not
+hungry or that it doesn't want that kind of
+[140:46] food but that is your perception that's your
+interpretation of it because all you can see
+[140:50] is the result when the result is not the end
+in learning it's not the end the the end of
+[140:56] learning is the result and the understanding
+and the will and the satisfaction and and
+[141:01] the discipline it's all about this it's about
+all of those things all right so listen to
+[141:07] me closely again mate every time you [ __ ]
+up while learning you're feeding your brain
+[141:13] a spoon of success for tomorrow hopefully
+the intention might filling in this idea goes
+[141:19] through your computer screen and after some
+dedicated time holy [ __ ] [ __ ] it's
+[141:27] a rocket League miracle now you go tell your
+friends so we can all play together and please
+[141:34] don't forget as soon as you're comfortable
+with directional Arrow to comment how long
+[141:39] it took you to use it using my method obviously
+I would very much like to hear that good right
+[141:46] so I'm still gonna keep to try your morale
+up know that you will know how to use directional
+[141:51] air War before you learn how to play the violin
+before you win your first marathon before
+[141:57] you get a diploma before hen have teeth if
+I'm releasing this in March know that you
+[142:02] will know directional airwall before the summer
+before any other example I could find and
+[142:07] I'm think I'm done with example actually so
+my video is long this [ __ ] seems unreachable
+[142:13] but if you just dive into directional air
+roll I promise you you will not ever want
+[142:20] to come back the worst thing you could do
+is discourage yourself because on a specific
+[142:26] day you lack motivation mate you're [ __ ]
+human this [ __ ] happens you're gonna have
+[142:34] some low days in general like we all do but
+don't fall for it and don't also procrastinate
+[142:40] too much but do take breaks it means your
+brain is telling you all right I'm not quite
+[142:48] there yet mate but tomorrow man actually probably
+tomorrow I'll feel good about it right that's
+[142:53] what your brain tells you when you want to
+take a break like you're literally digesting
+[142:58] everything so play the game as you normally
+would while inside your head something is
+[143:04] being forged like something is actually being
+forced all right good and boom goes the abrupt
+[143:11] ending so that this motivation speech stays
+with you as long as possible I hope you can
+[143:15] find this method relevant both in the information
+provided as well as the thought process that
+[143:20] allows it to be put into words now thanks
+for watching mate for listening for being
+[143:24] patient good luck don't forget to have fun
+because nothing is done well without fun ranked
+[143:30] games are not a live or die answer to anything
+nor the only sources of pleasure or confidence
+[143:35] in This Magnificent game psionics if you listen
+to this somehow because I'm nobody uh the
+[143:42] ball is in your court and to whoever watch
+this video I will see you around mate take
+[143:47] care
