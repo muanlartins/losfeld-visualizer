@@ -1,0 +1,12 @@
+{
+  "name": "losfeld-visualizer",
+  "private": true,
+  "type": "module",
+  "description": "Node is only needed for the tools in tools/: the page itself has no build step.",
+  "scripts": {
+    "recipes": "node tools/recipes.mjs"
+  },
+  "devDependencies": {
+    "three": "0.169.0"
+  }
+}

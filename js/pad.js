@@ -16,7 +16,8 @@ const SVG = `
   <circle class="range" cx="${LEFT.x}" cy="${LEFT.y}" r="${STICK_TRAVEL.left}"/>
   <circle class="knob bound" data-stick="left" data-button="10" cx="${LEFT.x}" cy="${LEFT.y}" r="11"/>
   <g transform="translate(116 128)">
-    <rect class="button" data-button="12" x="-5" y="-17" width="10" height="12" rx="2"/>
+    <rect class="button bound" data-button="${BUTTON.reset}" x="-5" y="-17" width="10" height="12" rx="2"/>
+    <text class="bind" y="-22">Reset</text>
     <rect class="button" data-button="13" x="-5" y="5" width="10" height="12" rx="2"/>
     <rect class="button" data-button="14" x="-17" y="-5" width="12" height="10" rx="2"/>
     <rect class="button" data-button="15" x="5" y="-5" width="12" height="10" rx="2"/>

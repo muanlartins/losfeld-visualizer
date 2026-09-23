@@ -29,19 +29,54 @@
   <aside class="panel" aria-label="Controls">
     <section class="group">
       <h2>Mode</h2>
-      <div class="segmented pair" role="radiogroup" aria-label="Mode">
+      <div class="segmented" role="radiogroup" aria-label="Mode">
         <button role="radio" data-mode="loop" aria-checked="true">Jump loop</button>
         <button role="radio" data-mode="locked" aria-checked="false">Locked</button>
-        <!-- Free flight works but is hidden for now: unhide this and make the group three wide again. -->
+        <button role="radio" data-mode="moves" aria-checked="false">Moves</button>
+        <!-- Free flight works but is hidden for now: unhide this and make the group four wide (class "quad"). -->
         <button role="radio" data-mode="free" aria-checked="false" hidden>Free flight</button>
       </div>
       <p class="hint" id="mode-hint"></p>
     </section>
 
-    <section class="group">
+    <section class="group" id="moves-group" hidden>
+      <h2>Clock</h2>
+      <div class="segmented small" role="radiogroup" aria-label="Clock the combo is played on">
+        <button role="radio" data-move-tempo="clock" aria-checked="false">Single</button>
+        <button role="radio" data-move-tempo="double" aria-checked="true">Double</button>
+        <button role="radio" data-move-tempo="triple" aria-checked="false">Triple</button>
+      </div>
+      <h3>Back in time</h3>
+      <div class="segmented pair small" role="radiogroup" aria-label="How the stick gets back in time">
+        <button role="radio" data-resume="jump" aria-checked="true">Jump back</button>
+        <button role="radio" data-resume="catch" aria-checked="false">Catch up</button>
+      </div>
+      <p class="hint" id="resume-hint"></p>
+
+      <h2 class="spaced">Combo <output id="combo-total"></output></h2>
+      <div class="move-pad" id="move-pad" aria-label="Add a move"></div>
+      <ol class="combo" id="combo" aria-label="The combo, one move per revolution: pick one to go to it"></ol>
+      <div class="combo-actions">
+        <button class="action small" id="combo-undo">Undo</button>
+        <button class="action small" id="combo-clear">Clear</button>
+      </div>
+
+      <h2 class="spaced">Timeline <output id="timeline-clock"></output></h2>
+      <div class="timeline" id="timeline"></div>
+      <div class="walkthrough">
+        <svg class="move-stick" id="move-stick" viewBox="-60 -60 120 120" aria-hidden="true"></svg>
+        <ol class="steps" id="steps"></ol>
+      </div>
+      <div class="revolution" id="revolution" aria-hidden="true"></div>
+      <div class="compare" id="compare"></div>
+      <p class="hint" id="move-hint"></p>
+    </section>
+
+    <section class="group" id="inputs-group">
       <h2>Inputs</h2>
-      <div class="segmented pair" role="radiogroup" aria-label="Input source">
+      <div class="segmented" role="radiogroup" aria-label="Input source">
         <button role="radio" data-source="panel" aria-checked="true">Pick</button>
+        <button role="radio" data-source="clock" aria-checked="false">Clock</button>
         <button role="radio" data-source="controller" aria-checked="false">Controller</button>
       </div>
 
@@ -52,7 +87,20 @@
           <button role="radio" data-roll="0" aria-checked="true">Off</button>
           <button role="radio" data-roll="1" aria-checked="false">Right</button>
         </div>
-        <h3>Left stick <output id="stick-name">Neutral</output></h3>
+        <div id="clock-inputs" hidden>
+          <h3>Stick circles</h3>
+          <div class="segmented pair small" role="radiogroup" aria-label="Clock direction">
+            <button role="radio" data-turn="-1" aria-checked="true">Clockwise ↻</button>
+            <button role="radio" data-turn="1" aria-checked="false">Anticlockwise ↺</button>
+          </div>
+          <div class="segmented small tempo" role="radiogroup" aria-label="Circles per car revolution">
+            <button role="radio" data-tempo="clock" aria-checked="true">Single</button>
+            <button role="radio" data-tempo="double" aria-checked="false">Double</button>
+            <button role="radio" data-tempo="triple" aria-checked="false">Triple</button>
+          </div>
+          <p class="hint" id="clock-name"></p>
+        </div>
+        <h3><span id="stick-label">Left stick</span> <output id="stick-name">Neutral</output></h3>
         <div class="stick">
           <svg class="gate" viewBox="-60 -60 120 120" aria-hidden="true">
             <polygon points="0,-50 35.4,-35.4 50,0 35.4,35.4 0,50 -35.4,35.4 -50,0 -35.4,-35.4" />
@@ -62,7 +110,7 @@
           <span class="cap" aria-hidden="true"></span>
           <div class="notches" role="radiogroup" aria-label="Left stick direction"></div>
         </div>
-        <p class="hint">Up pushes the nose down (default, not inverted)</p>
+        <p class="hint" id="stick-hint"></p>
       </div>
 
       <div id="controller-inputs" hidden>
@@ -75,7 +123,6 @@
       <div><span>Roll</span><output id="in-roll">0.00</output></div>
       <div><span>Pitch</span><output id="in-pitch">0.00</output></div>
       <div><span>Yaw</span><output id="in-yaw">0.00</output></div>
-      <p class="note axis" id="axis" hidden></p>
       <p class="note" id="pending" hidden>Takes effect on the next jump</p>
       <p class="note status" id="status" hidden></p>
     </section>
@@ -115,6 +162,7 @@
         <li class="key-roll">Air roll</li>
         <li class="key-stick">Stick</li>
         <li class="key-spin">Spin axis</li>
+        <li class="key-heading">Heading</li>
       </ul>
     </section>
 
@@ -124,6 +172,8 @@
       <p class="hint">Pick the hitbox points to mark, each with its own colour and trail</p>
     </section>
   </aside>
+
+  <aside class="gauge" id="gauge" aria-label="Heading readout"></aside>
 
   <footer class="credits">
     Octane model by <a href="https://sketchfab.com/3d-models/octane-rocket-league-car-9910f0a5d158425bbc7deb60c7a81f69">Jako</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ·

@@ -79,6 +79,8 @@ export class Car {
     this.velocity = new THREE.Vector3();
     this.orientation = pinned ? new THREE.Quaternion() : REST_ORIENTATION.clone();
     this.omega = new THREE.Vector3();
+    // How far the car has turned around its nose in the air, in radians (positive = rolled right).
+    this.rolled = 0;
     this.controls = NO_CONTROLS;
     this.pinned = pinned;
     this.phase = pinned ? 'air' : 'ground';
@@ -88,6 +90,18 @@ export class Car {
     this.boosting = false;
     this.boostTicks = 0;
     this.settle = null;
+  }
+
+  // A car that carries on from exactly this state, to look ahead without touching this one.
+  clone() {
+    return Object.assign(new Car(), this, {
+      position: this.position.clone(),
+      velocity: this.velocity.clone(),
+      orientation: this.orientation.clone(),
+      omega: this.omega.clone(),
+      onJump: () => {},
+      onLand: () => {},
+    });
   }
 
   step(controls) {
@@ -224,6 +238,7 @@ export class Car {
       .applyQuaternion(this.orientation);
 
     this.omega.addScaledVector(torque, TICK);
+    this.rolled += this.omega.dot(AXIS.roll.clone().applyQuaternion(this.orientation)) * TICK;
     const angle = this.omega.length() * TICK;
     if (angle > 0) {
       const spin = new THREE.Quaternion().setFromAxisAngle(this.omega.clone().normalize(), angle);
