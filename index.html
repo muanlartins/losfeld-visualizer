@@ -40,10 +40,8 @@
     </section>
 
     <section class="group" id="moves-group" hidden>
-      <h2>Move <output id="move-name"></output></h2>
-      <div class="move-pad" id="move-pad" role="radiogroup" aria-label="Move"></div>
-      <h3>Clock</h3>
-      <div class="segmented small" role="radiogroup" aria-label="Clock the move is played on">
+      <h2>Clock</h2>
+      <div class="segmented small" role="radiogroup" aria-label="Clock the combo is played on">
         <button role="radio" data-move-tempo="clock" aria-checked="false">Single</button>
         <button role="radio" data-move-tempo="double" aria-checked="true">Double</button>
         <button role="radio" data-move-tempo="triple" aria-checked="false">Triple</button>
@@ -53,11 +51,24 @@
         <button role="radio" data-resume="jump" aria-checked="true">Jump back</button>
         <button role="radio" data-resume="catch" aria-checked="false">Catch up</button>
       </div>
+      <p class="hint" id="resume-hint"></p>
+
+      <h2 class="spaced">Combo <output id="combo-total"></output></h2>
+      <div class="move-pad" id="move-pad" aria-label="Add a move"></div>
+      <ol class="combo" id="combo" aria-label="The combo, one move per revolution: pick one to go to it"></ol>
+      <div class="combo-actions">
+        <button class="action small" id="combo-undo">Undo</button>
+        <button class="action small" id="combo-clear">Clear</button>
+      </div>
+
+      <h2 class="spaced">Timeline <output id="timeline-clock"></output></h2>
+      <div class="timeline" id="timeline"></div>
       <div class="walkthrough">
         <svg class="move-stick" id="move-stick" viewBox="-60 -60 120 120" aria-hidden="true"></svg>
         <ol class="steps" id="steps"></ol>
       </div>
       <div class="revolution" id="revolution" aria-hidden="true"></div>
+      <div class="compare" id="compare"></div>
       <p class="hint" id="move-hint"></p>
     </section>
 

@@ -5,7 +5,7 @@ import { createInput } from './input.js';
 import { CLOCKWISE, clockName, createClockPlayer, turnsWithRoll } from './clock.js';
 import { createHeading } from './heading.js';
 import { createGauge } from './gauge.js';
-import { createWalkthrough } from './moves.js';
+import { recordCombo } from './moves.js';
 import { createMovePanel } from './move-panel.js';
 import { createPad } from './pad.js';
 import { createPicker } from './picker.js';
@@ -37,7 +37,7 @@ const MODES = {
     car: { position: LOCKED_POSITION, pinned: true },
   },
   moves: {
-    hint: 'Plays one move on the clock, over and over. A ghost keeps clocking without it: the hollow ring on the scope.',
+    hint: 'Plays a combo on the clock, one move per revolution of the car. Pause, scrub and step through it on the timeline; Speed sets the pace.',
     reset: 'Play again',
     car: { position: LOCKED_POSITION, pinned: true },
   },
@@ -55,7 +55,7 @@ const settings = {
   airRoll: 0,
   stick: STICK[4],
   clock: { turn: CLOCKWISE, tempo: 'clock' },
-  move: { name: 'R', tempo: 'double', resume: 'jump' },
+  combo: { names: ['R', 'U', 'L', 'D'], tempo: 'double', resume: 'jump' },
   holdTicks: 12,
   speed: 0.5,
   arrows: true,
@@ -75,7 +75,9 @@ const heading = createHeading();
 const car = new Car();
 let device = input.read();
 let ticks = 0;
-let walkthrough = null;
+// Moves: the combo is recorded once with the same physics, then shown from `replay.tick`, played on at the speed
+// slider's pace or stepped by hand.
+const replay = { recording: null, tick: 0, playing: true };
 let clock = null;
 
 // The jump loop replays one jump. It starts every jump from the start mark and shows where the last one landed.
@@ -111,7 +113,6 @@ function restartClock() {
 }
 
 function controls() {
-  if (settings.mode === 'moves') return walkthrough.controls(car);
   if (settings.mode !== 'loop') {
     return { ...steering(nextStick()), jump: settings.mode === 'free' && device.jump, boost: device.boost };
   }
@@ -150,7 +151,9 @@ function setMode(mode) {
   restartClock();
   heading.clear();
   gauge.clear();
-  walkthrough = mode === 'moves' ? createWalkthrough(settings.move) : null;
+  replay.recording = mode === 'moves' ? recordCombo(settings.combo) : null;
+  replay.tick = 0;
+  if (replay.recording) showFrame();
   $('moves-group').hidden = mode !== 'moves';
   $('inputs-group').hidden = mode === 'moves';
   loop.wait = 0;
@@ -185,7 +188,7 @@ function setSource(source) {
 
 // The keyboard is only taken over when it steers, jumps or boosts, so Space presses panel buttons otherwise.
 function updateKeyboard() {
-  input.enabled = settings.mode !== 'loop' || settings.source === 'controller';
+  input.enabled = settings.mode === 'locked' || settings.mode === 'free' || settings.source === 'controller';
 }
 
 document.querySelectorAll('[data-mode]').forEach((button) => button.addEventListener('click', () => setMode(button.dataset.mode)));
@@ -195,17 +198,92 @@ $('reset').addEventListener('click', () => setMode(settings.mode));
 // Moves
 
 const movePanel = createMovePanel(
-  { pad: $('move-pad'), stick: $('move-stick'), steps: $('steps'), revolution: $('revolution'), name: $('move-name'), hint: $('move-hint') },
-  (name) => setMove({ name }),
+  {
+    pad: $('move-pad'),
+    combo: $('combo'),
+    timeline: $('timeline'),
+    clock: $('timeline-clock'),
+    total: $('combo-total'),
+    undo: $('combo-undo'),
+    clear: $('combo-clear'),
+    stick: $('move-stick'),
+    steps: $('steps'),
+    revolution: $('revolution'),
+    compare: $('compare'),
+    resumeHint: $('resume-hint'),
+    hint: $('move-hint'),
+  },
+  {
+    onAdd: (name) => setCombo({ names: [...settings.combo.names, name] }),
+    onUndo: () => setCombo({ names: settings.combo.names.slice(0, -1) }),
+    onClear: () => setCombo({ names: [] }),
+    onSeek: (tick) => seek(tick, { pause: true }),
+    onToggle: () => {
+      replay.playing = !replay.playing;
+      if (replay.playing && replay.tick === replay.recording.frames.length - 1) seek(0);
+    },
+    onStep: (by) => seek(replay.tick + by, { pause: true }),
+    onRevolution: (by) => seek(nextUpright(by), { pause: true }),
+    onSpeed: (speed) => {
+      $('speed').value = speed;
+      $('speed').dispatchEvent(new Event('input'));
+    },
+    onSlot: (index) => seek(index < 0 ? 0 : replay.recording.uprights[replay.recording.slots[index].start - 1]),
+  },
 );
-function setMove(change) {
-  Object.assign(settings.move, change);
-  document.querySelectorAll('[data-move-tempo]').forEach((b) => b.setAttribute('aria-checked', String(b.dataset.moveTempo === settings.move.tempo)));
-  document.querySelectorAll('[data-resume]').forEach((b) => b.setAttribute('aria-checked', String(b.dataset.resume === settings.move.resume)));
+
+function showFrame() {
+  const frame = replay.recording.frames[replay.tick];
+  car.orientation.copy(frame.orientation);
+  car.omega.copy(frame.omega);
+  car.rolled = frame.rolled;
+  car.controls = frame.controls;
+}
+
+// Going back, or skipping ahead, starts the trails again.
+function seek(tick, { pause = false } = {}) {
+  const next = THREE.MathUtils.clamp(Math.round(tick), 0, replay.recording.frames.length - 1);
+  if (pause) replay.playing = false;
+  if (next < replay.tick || next > replay.tick + 1) {
+    stage.clearTrails();
+    gauge.clear();
+  }
+  replay.tick = next;
+  showFrame();
+}
+
+// The frame where the car next turns upright, going forward or back. Going back from just past one goes to the one
+// before it.
+function nextUpright(by) {
+  const uprights = [0, ...replay.recording.uprights, replay.recording.frames.length - 1];
+  if (by > 0) return uprights.find((t) => t > replay.tick) ?? replay.tick;
+  return uprights.findLast((t) => t < replay.tick - 2) ?? 0;
+}
+
+addEventListener('keydown', (e) => {
+  if (settings.mode !== 'moves' || e.metaKey || e.ctrlKey || e.altKey) return;
+  const onControl = e.target.closest?.('button, input');
+  if (e.code === 'Space' && !onControl) {
+    e.preventDefault();
+    replay.playing = !replay.playing;
+  } else if ((e.code === 'ArrowLeft' || e.code === 'ArrowRight') && e.target.type !== 'range') {
+    e.preventDefault();
+    const by = e.code === 'ArrowLeft' ? -1 : 1;
+    if (e.shiftKey) seek(nextUpright(by), { pause: true });
+    else seek(replay.tick + by, { pause: true });
+  } else if (e.code === 'KeyR') {
+    setMode('moves');
+  }
+});
+// Any change to the combo plays it again from the start.
+function setCombo(change) {
+  Object.assign(settings.combo, change);
+  document.querySelectorAll('[data-move-tempo]').forEach((b) => b.setAttribute('aria-checked', String(b.dataset.moveTempo === settings.combo.tempo)));
+  document.querySelectorAll('[data-resume]').forEach((b) => b.setAttribute('aria-checked', String(b.dataset.resume === settings.combo.resume)));
   setMode('moves');
 }
-document.querySelectorAll('[data-move-tempo]').forEach((b) => b.addEventListener('click', () => setMove({ tempo: b.dataset.moveTempo })));
-document.querySelectorAll('[data-resume]').forEach((b) => b.addEventListener('click', () => setMove({ resume: b.dataset.resume })));
+document.querySelectorAll('[data-move-tempo]').forEach((b) => b.addEventListener('click', () => setCombo({ tempo: b.dataset.moveTempo })));
+document.querySelectorAll('[data-resume]').forEach((b) => b.addEventListener('click', () => setCombo({ resume: b.dataset.resume })));
 
 // Clock
 
@@ -338,17 +416,21 @@ function renderLive() {
   } else if (settings.mode !== 'loop') {
     showStatus(`Spinning at ${car.omega.length().toFixed(2)} rad/s`);
   }
-  if (walkthrough) movePanel.render(settings.move, walkthrough, car);
+  if (replay.recording) movePanel.render(settings.combo, replay.recording, replay.tick, replay.playing, settings.speed);
   const airborne = car.phase === 'air';
   gauge.update({
-    heading: heading.get(),
-    ghost: walkthrough?.ghostHeading() ?? null,
+    heading: currentHeading(),
     nose: airborne ? AXIS.roll.clone().applyQuaternion(car.orientation) : null,
     spin: airborne ? car.spinAxis() : null,
-    ticks,
+    ticks: replay.recording ? replay.tick : ticks,
     camera: stage.camera,
   });
   renderInputs();
+}
+
+function currentHeading() {
+  if (replay.recording) return replay.recording.frames[replay.tick].heading;
+  return car.phase === 'air' ? heading.get() : null;
 }
 
 function clockHint() {
@@ -369,15 +451,17 @@ function frame(now) {
   device = input.read();
   if (device.reset && !resetHeld) setMode(settings.mode);
   while (accumulator >= TICK) {
-    car.step(controls());
-    if (car.phase === 'air') heading.push(car);
-    walkthrough?.measure(heading);
+    if (replay.recording) {
+      if (replay.playing) seek(replay.tick + 1 < replay.recording.frames.length ? replay.tick + 1 : 0);
+    } else {
+      car.step(controls());
+      if (car.phase === 'air') heading.push(car);
+    }
     ticks++;
     accumulator -= TICK;
   }
-  if (walkthrough?.over) setMode('moves');
   renderLive();
-  stage.sync(car, { ...settings, heading: car.phase === 'air' ? heading.get() : null });
+  stage.sync(car, { ...settings, heading: currentHeading() });
   stage.render();
   requestAnimationFrame(frame);
 }

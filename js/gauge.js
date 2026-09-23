@@ -26,7 +26,6 @@ const MARKUP = `
   <text class="edge" y="${-RADIUS - 4}" text-anchor="middle">+Z</text><text class="edge" y="${RADIUS + 10}" text-anchor="middle">−Z</text>
   <polyline class="trail"/>
   <circle class="spin" r="5"/>
-  <circle class="ghost" r="5.5"/>
   <circle class="nose" r="2.5"/>
   <circle class="heading" r="4.5"/>
   <g class="gizmo" transform="translate(${GIZMO.x} ${GIZMO.y})">
@@ -46,7 +45,7 @@ const MARKUP = `
 export function createGauge(root) {
   root.innerHTML = MARKUP;
   const $ = (selector) => root.querySelector(selector);
-  const dots = { heading: $('.heading'), nose: $('.nose'), spin: $('.spin'), ghost: $('.ghost') };
+  const dots = { heading: $('.heading'), nose: $('.nose'), spin: $('.spin') };
   const trailLine = $('.trail');
   const rings = [1, 2].map((i) => $(`[data-ring="${i}"]`));
   const ringLabels = [1, 2, 3].map((i) => $(`[data-ring-label="${i}"]`));
@@ -92,7 +91,7 @@ export function createGauge(root) {
     clear() {
       trail.length = 0;
     },
-    update({ heading, ghost, nose, spin, ticks, camera }) {
+    update({ heading, nose, spin, ticks, camera }) {
       if (heading && (!trail.length || ticks - trail.at(-1).ticks >= TRAIL_EVERY)) trail.push({ ticks, direction: heading.clone() });
       while (trail.length && ticks - trail[0].ticks > TRAIL_TICKS) trail.shift();
 
@@ -103,7 +102,6 @@ export function createGauge(root) {
       show(dots.heading, heading);
       show(dots.nose, nose);
       show(dots.spin, spin?.direction);
-      show(dots.ghost, ghost);
 
       const view = camera.quaternion.clone().invert();
       for (const axis of axes) {

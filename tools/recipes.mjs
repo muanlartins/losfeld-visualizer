@@ -1,73 +1,34 @@
-// Finds, for each clock tempo, the freeze that moves the car's heading a little in each direction, and the reverse
-// that turns it round. Runs the page's own physics and clock, then writes js/recipes.js.
+// Finds, for each clock tempo and way of getting back in time, the freeze that moves the car's heading a little in
+// each direction, and the reverse that turns it round. Plays each candidate as a one-move combo with the page's own
+// physics, clock and measurement (js/moves.js), then writes js/recipes.js.
 //
 //   npm install && npm run recipes
-//
-// Every candidate is played from a level car with air roll left: the clock runs for two revolutions, the move
-// happens in the third, and the heading is compared with the same clock played without the move.
 import { writeFileSync } from 'node:fs';
 import * as THREE from 'three';
-import { Car, TICK, stickToInputs } from '../js/physics.js';
-import { CLOCKWISE, TEMPOS, createClockPlayer } from '../js/clock.js';
-import { compare, createHeading } from '../js/heading.js';
+import { Car } from '../js/physics.js';
+import { TEMPOS } from '../js/clock.js';
+import { compare } from '../js/heading.js';
+import { NOTCH_ANGLES, lookAhead, playSlots } from '../js/moves.js';
 
-const AIR_ROLL = -1;
-const REVOLUTION = 2;
 const SLIGHT = 10;
-const MEASURE_AFTER = 1.5;
 const SETTLED_WITHIN = 1;
-const NOTCHES = ['Right', 'Upper right', 'Up', 'Upper left', 'Left', 'Lower left', 'Down', 'Lower right'];
 export const MOVES = { R: 0, UR: 45, U: 90, UL: 135, L: 180, DL: 225, D: 270, DR: 315 };
+const PAIRS = [['R', 'L'], ['U', 'D'], ['UR', 'DL'], ['UL', 'DR']];
 const HOLDS = Array.from({ length: 17 }, (_, i) => 4 + 2 * i);
 const REVERSES = Array.from({ length: 80 }, (_, i) => 12 + 4 * i);
 const deg = THREE.MathUtils.radToDeg;
 
-// Plays the clock with the move, and returns the heading at each of `times` seconds after the move is done.
-function play(tempo, move, times) {
+// What the move does, as the page measures it, and whether the heading has stopped moving a revolution later.
+function effect(tempo, resume, move) {
   const car = new Car();
   car.reset({ pinned: true });
-  const clock = createClockPlayer({ start: 0, turn: CLOCKWISE, tempo });
-  clock.queue(move, REVOLUTION);
-  const heading = createHeading();
-  const seen = [];
-  let doneAt = null;
-  for (let tick = 0; seen.length < times.length; tick++) {
-    const stick = clock.stick(car);
-    if (doneAt === null && clock.move.phase === 'done') doneAt = tick;
-    car.step({ ...stickToInputs(stick, AIR_ROLL), jump: false, boost: false });
-    heading.push(car);
-    if (doneAt !== null && tick - doneAt >= Math.round(times[seen.length] / TICK)) seen.push(heading.get());
-  }
-  return { seen, doneAt };
-}
-
-// The unplayed clock, sampled at the same ticks as a move done at `tick`.
-const baselines = new Map();
-function baseline(tempo, tick, times) {
-  const key = `${tempo}:${tick}`;
-  if (!baselines.has(key)) {
-    const car = new Car();
-    car.reset({ pinned: true });
-    const clock = createClockPlayer({ start: 0, turn: CLOCKWISE, tempo });
-    const heading = createHeading();
-    const seen = [];
-    for (let t = 0; seen.length < times.length; t++) {
-      car.step({ ...stickToInputs(clock.stick(car), AIR_ROLL), jump: false, boost: false });
-      heading.push(car);
-      if (t - tick >= Math.round(times[seen.length] / TICK)) seen.push(heading.get());
-    }
-    baselines.set(key, seen);
-  }
-  return baselines.get(key);
-}
-
-// How far the heading moved, seen from behind the unplayed clock's heading: right and up, in degrees.
-function effect(tempo, move) {
-  const times = [MEASURE_AFTER, MEASURE_AFTER + 1.2];
-  const { seen, doneAt } = play(tempo, move, times);
-  const base = baseline(tempo, doneAt, times);
-  const [change, later] = seen.map((h, i) => compare(base[i], h));
-  return { ...change, settled: Math.abs(change.angle - later.angle) < SETTLED_WITHIN };
+  const combo = playSlots({ tempo, resume }, [{ name: 'try', move }]);
+  while (!combo.over) car.step(combo.controls(car));
+  const [slot] = combo.slots;
+  const until = slot.end + 3;
+  const later = compare(lookAhead(combo.uprights.get(slot.start), until), lookAhead(combo.uprights.get(slot.end), until));
+  const { change } = slot;
+  return { ...change, direction: deg(Math.atan2(change.up, change.right)), settled: Math.abs(change.angle - later.angle) < SETTLED_WITHIN };
 }
 
 const angleGap = (a, b) => Math.abs(((a - b + 540) % 360) - 180);
@@ -78,33 +39,42 @@ for (const tempo of Object.keys(TEMPOS)) {
   for (const resume of ['jump', 'catch']) {
     const tried = [];
     for (let circle = 0; circle < TEMPOS[tempo]; circle++) {
-      NOTCHES.forEach((notch, i) => {
-        for (const hold of HOLDS) {
-          const move = { at: (i * Math.PI) / 4, circle, hold, resume };
-          const e = effect(tempo, move);
-          tried.push({ notch, circle, hold, ...e, direction: deg(Math.atan2(e.up, e.right)) });
-        }
-      });
+      for (const [notch, at] of Object.entries(NOTCH_ANGLES)) {
+        for (const hold of HOLDS) tried.push({ notch, circle, hold, ...effect(tempo, resume, { at, circle, hold, resume }) });
+      }
     }
     const moves = {};
-    for (const [name, direction] of Object.entries(MOVES)) {
-      const best = tried
-        .filter((t) => t.settled && Math.abs(t.angle - SLIGHT) <= 3)
-        .sort((a, b) => angleGap(a.direction, direction) - angleGap(b.direction, direction) || a.hold - b.hold)[0];
-      if (best && angleGap(best.direction, direction) <= 15) moves[name] = best;
+    // Every freeze that ends up within 15° of a move's direction, the closest first.
+    const candidates = (name) =>
+      tried
+        .filter((t) => t.settled && Math.abs(t.angle - SLIGHT) <= 3 && angleGap(t.direction, MOVES[name]) <= 15)
+        .map((t) => ({ ...t, gap: angleGap(t.direction, MOVES[name]) }))
+        .sort((a, b) => a.gap - b.gap || a.hold - b.hold);
+    // On the double clock, opposite moves share a freeze point where they can, one in each circle: four points to
+    // learn instead of eight.
+    if (TEMPOS[tempo] === 2) {
+      for (const [one, other] of PAIRS) {
+        const pairs = candidates(one).flatMap((a) =>
+          candidates(other)
+            .filter((b) => b.notch === a.notch && b.circle !== a.circle)
+            .map((b) => [a, b]),
+        );
+        const [best] = pairs.sort(([a, b], [c, d]) => a.gap + b.gap - (c.gap + d.gap));
+        if (best) [moves[one], moves[other]] = best;
+      }
     }
+    for (const name of Object.keys(MOVES)) moves[name] ??= candidates(name)[0];
+    for (const name of Object.keys(MOVES)) if (!moves[name]) delete moves[name];
     // The U-turn: the stick turns back (a stretch of reverse clock) until the heading is as near behind as it gets.
     let uTurn = null;
     for (let circle = 0; circle < TEMPOS[tempo]; circle++) {
-      NOTCHES.forEach((notch, i) => {
+      for (const [notch, at] of Object.entries(NOTCH_ANGLES)) {
         for (const reverse of REVERSES) {
-          const e = effect(tempo, { at: (i * Math.PI) / 4, circle, reverse, resume });
+          const e = effect(tempo, resume, { at, circle, reverse, resume });
           const closer = !uTurn || e.angle > uTurn.angle + 2 || (Math.abs(e.angle - uTurn.angle) <= 2 && reverse < uTurn.reverse);
-          if (e.settled && closer) {
-            uTurn = { notch, circle, reverse, ...e, direction: deg(Math.atan2(e.up, e.right)) };
-          }
+          if (e.settled && closer) uTurn = { notch, circle, reverse, ...e };
         }
-      });
+      }
     }
     if (uTurn) moves.UT = uTurn;
     recipes[tempo][resume] = moves;
@@ -143,8 +113,9 @@ const data = Object.fromEntries(
 writeFileSync(
   new URL('../js/recipes.js', import.meta.url),
   `// Generated by tools/recipes.mjs: don't edit by hand. For each clock tempo and way of getting back in time, the
-// move that shifts the heading about ${SLIGHT}° each way (or turns it round, UT), played with air roll left in the
-// third revolution of a clock that starts far right. \`result\` is what the simulation measured, in degrees.
+// move that shifts the heading about ${SLIGHT}° each way (or turns it round, UT), played as the first move of a combo
+// (air roll left, a clock from far right, after one revolution to spin up). \`result\` is what the page measures for
+// it, in degrees.
 export const RECIPES = ${JSON.stringify(data, null, 2)};
 `,
 );
