@@ -29,6 +29,12 @@ Ahead, behind, left and right are labelled around the start mark, as the car sta
 - Drift is real: jump is still pushing along the roof for a few ticks after air roll starts tilting the car. At 100 ms with air roll left, the car touches down 2 uu left and 1 uu ahead. Holds of 50 ms or less don't drift sideways at all.
 - Not simulated: landing (the car stops and turns back onto its wheels; in RocketSim the suspension pushes it about 4.5 uu further), driving, double jumps, dodges, walls and the ball.
 
+## Docs
+
+- [The Losfeld method, checked against the physics](docs/losfeld-method.md)
+- [Working on the visualizer](docs/development.md)
+- [Transcript of the thesis video](docs/losfeld-transcript.txt)
+
 ## Run locally
 
 ```sh
