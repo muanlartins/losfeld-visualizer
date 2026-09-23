@@ -34,10 +34,10 @@ Measured with the same physics as the page. Clocks are perfect circles at full s
 | Stick, with air roll left | Drift once the spin has settled |
 |---|---|
 | Neutral | 0°/s |
-| Clock | about 14°/s |
+| Clock | about 12–14°/s |
 | Double clock | under 0.3°/s |
 | Triple clock | under 0.1°/s |
-| Reverse clock | turns hard: about 150° round within 2 s, then swings back |
+| Reverse clock | turns hard: about 150° round within 2 s, over the top |
 
 **Locking works.** Freezing the stick during a double clock and then jumping back to where the clock should be gives a single change of direction, then the car goes straight again. It turns about 4.5° for a 100 ms freeze and about 20° for 250 ms. The direction is where that stick position pushes the nose at that moment of the roll, a little further round because the car keeps rolling during the freeze. So it depends on where the car is in its roll, not only on where the stick points. On the single clock, freezing at up-right turns the car right and at down-right turns it left, as the video says.
 
@@ -45,26 +45,32 @@ Measured with the same physics as the page. Clocks are perfect circles at full s
 
 ## Moves on the clock
 
-The page's Moves mode plays these, and `tools/recipes.mjs` finds them. For each clock, the search tries a freeze at every stick notch, in every circle of the revolution, for every length from 33 to 300 ms. Each one is played from a level car with air roll left, in the third revolution. The result is measured 1.5 s after the stick is back in time, against a ghost car that played the same clock without the freeze.
+The page's Moves mode plays these as combos, one move per revolution of the car, and `tools/recipes.mjs` finds them. The letters are the page's own notation, not the video's. For each clock, the search tries a freeze at every stick notch, in every circle of the revolution, for every length from 33 to 300 ms, and keeps moves of about 10°. Each one is played exactly as the page plays a combo: air roll left, a clock from far right, one revolution to spin up, then the move.
+
+**How a move is measured.** From where the car was as the move's revolution started, and from where it is as the next revolution starts, the plain clock is played on in a copy of the car. Both headings are read over the same revolution, the second after the move. So the result is what the move did against playing just the clock in its place. On the double and triple clocks the plain clock doesn't drift (0.00°/s), so the before of each move is the after of the one before, and a combo's moves add up: R R R turns 26.5° right (8.7°, 8.9° and 9.1°), and R U L D ends 2.5° from where it started.
 
 **Which way a freeze sends the car.** While the stick is held, it pushes the nose where the stick points, read on the car as it is rolled at that moment. The clock ties the stick to the roll, so each stick position in each circle has its own direction. On the double clock the stick passes each notch twice per revolution, half a revolution apart, and the two pushes are opposite. So four freeze points cover all eight directions, and the circle picks which way. On the triple clock the three passes push 120° apart.
 
 Double clock, jumping back in time afterwards:
 
-| Move | Stick at | Circle | Then | Result (from the ghost) |
+| Move | Stick at | Circle | Then | Result |
 |---|---|---|---|---|
-| R | down | 2 of 2 | hold 117 ms | 7.4° right, 1.1° up |
-| UR | right | 1 of 2 | hold 133 ms | 7.0° right, 6.5° up |
-| U | up | 1 of 2 | hold 117 ms | 1.2° left, 7.6° up |
-| UL | left | 2 of 2 | hold 133 ms | 6.2° left, 6.7° up |
-| L | down | 1 of 2 | hold 117 ms | 7.7° left, 1.2° down |
-| DL | right | 2 of 2 | hold 133 ms | 6.8° left, 6.3° down |
-| D | up | 2 of 2 | hold 117 ms | 1.1° right, 7.2° down |
-| DR | left | 1 of 2 | hold 133 ms | 6.4° right, 6.8° down |
-| UT | up | 1 of 2 | turn back for 1733 ms | 152° round |
+| R | down | 2 of 2 | hold 133 ms | 8.7° right, 2.0° up |
+| L | down | 1 of 2 | hold 117 ms | 7.1° left, 0.7° down |
+| U | up | 1 of 2 | hold 133 ms | 2.0° left, 8.9° up |
+| D | up | 2 of 2 | hold 117 ms | 1.2° right, 7.6° down |
+| UR | right | 1 of 2 | hold 150 ms | 7.6° right, 7.7° up |
+| DL | right | 2 of 2 | hold 150 ms | 7.3° left, 7.5° down |
+| UL | left | 2 of 2 | hold 133 ms | 6.4° left, 6.9° up |
+| DR | left | 1 of 2 | hold 150 ms | 7.6° right, 7.3° down |
+| UT | up | 2 of 2 | turn back for 1.73 s | 152° round |
 
-The triple clock and catching up (instead of jumping back) also reach every direction, from different freeze points. `js/recipes.js` has them all.
+Catching up instead, the double clock needs only two freeze points: far left in circle 1 gives R and in circle 2 L, and far right gives U and D the same way (183 ms each, about 11°).
 
-**The single clock only reaches some directions.** Its stick passes each notch once per revolution, and for short freezes, notches half a circle apart push the same way. Only four directions come out, on top of the clock's own 14°/s drift. Jumping back, no single freeze on a notch gives a clean right, left, up or down-left; catching up, none gives right, left, up-right or up-left.
+**Jump back or catch up.** Both hold the stick for the same time, and how long you hold sets how far the car turns. The difference is after the hold. Jumping back, the stick flicks straight to where the clock is by now. Catching up, it carries on from where it stopped at twice the speed, so it stays behind the clock for as long again as the hold, and being behind the clock is a push of its own. The same freeze then turns the car further and in another direction: freezing at down in circle 2 for 117 ms turns it 6.8° right, 0.6° up jumping back, and 9.0° right, 4.5° up catching up. That is why each has its own recipes.
 
-**The U-turn never gets fully behind.** Turning the stick back with the car is a stretch of reverse clock: the push keeps one direction and the car turns hard. But with air roll held, the heading swings round a cone and comes back instead of carrying on over. On every clock it gets about 150–160° round at most, after about 1.7–2 s of turning back. That is the video's "make your car go behind you", but not all the way.
+**A move that ends past the upright.** A slot ends at the first upright after its move is done. A freeze late in the revolution (like D, at up in circle 2) can finish just after the car turns upright. The next move still plays in the next revolution when its freeze comes later than that; if it would come first (UR freezes right as the car turns upright), it waits a revolution, and the page marks it.
+
+**The single clock only reaches some directions.** Its stick passes each notch once per revolution, and for short freezes, notches half a circle apart push the same way. On top of that it drifts about 12–14°/s by itself. Jumping back, no single freeze gives a clean right, up, left or down-left; catching up, none gives right, up-left, left or down-right.
+
+**The U-turn goes over the top.** Turning the stick back with the car is a stretch of reverse clock: the push keeps one direction and the car turns hard. The nose climbs until it points straight up, and the car comes down the other side, about 150° round at most after 1.7–2 s: the video's "make your car go behind you", but not all the way. Coming out of that half loop, the car is upside down compared with how its roll is counted, so moves played after a UT come out mirrored (an R goes left). The video's refreshing the car (63:11) starts the clock over; whether that is how a player gets back in step after a UT isn't tested here yet.
