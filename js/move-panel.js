@@ -1,5 +1,6 @@
 import { TICK } from './physics.js';
-import { angles, compare } from './heading.js';
+import { angles } from './heading.js';
+import { comboPlot } from './combo-plot.js';
 import { MOVES, NOTCH_ANGLES, recipeFor } from './moves.js';
 
 // The Moves panel. The pad builds a combo; the combo is recorded once and watched back and forth on a timeline. For
@@ -8,10 +9,7 @@ import { MOVES, NOTCH_ANGLES, recipeFor } from './moves.js';
 const GATE = 44;
 const COUNT = ['', 'once', 'twice', 'three times'];
 const MAX_MOVES = 8;
-// The combo plot: how far right and up the car has turned from where the combo started, zoomed to fit.
 const PLOT = 50;
-const PLOT_RANGES = [10, 20, 45, 90, 180];
-const TRAIL_EVERY = 3;
 const PHASE_STEP = { waiting: 0, hold: 1, reverse: 1, jump: 2, catch: 2, done: 3 };
 const RESUME_HINTS = {
   jump: 'When the hold ends, flick the stick round to where the clock is by now. How long you hold sets how far the car turns.',
@@ -202,34 +200,15 @@ export function createMovePanel(elements, actions) {
       : 'Add moves from the pad: each one takes a revolution of the car.';
     hint.textContent += ' Keys: Space plays or pauses, ← → step a tick, Shift + ← → a revolution.';
 
-    // The plot's zoom fits the whole combo, so it stays put while scrubbing.
-    const points = [
-      ...frames.filter((f) => f.turned).map((f) => [f.turned.right, f.turned.up]),
-      ...slots.flatMap((slot) => [slot.before, slot.after]).map((d) => turnedFrom(recording.origin, d)),
-    ];
-    const widest = Math.max(0, ...points.flat().map(Math.abs));
-    shown.range = PLOT_RANGES.find((r) => widest * 1.15 <= r) ?? PLOT_RANGES.at(-1);
-    plot.range.textContent = `${shown.range}°`;
-    plot.moves.innerHTML = slots
-      .map((slot, i) => {
-        const [x1, y1] = plotAt(turnedFrom(recording.origin, slot.before));
-        const [x2, y2] = plotAt(turnedFrom(recording.origin, slot.after));
-        const start = i ? '' : `<circle class="start" r="2.5" cx="${x1}" cy="${y1}"/>`;
-        return `${start}<g data-move-line="${i}"><line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/><circle r="2.5" cx="${x2}" cy="${y2}"/><text x="${x2}" y="${(Number(y2) - 5).toFixed(1)}">${slot.name}</text></g>`;
-      })
-      .join('');
+    shown.plot = recording.origin ? comboPlot(recording, PLOT) : null;
+    plot.range.textContent = shown.plot ? `${shown.plot.range}°` : '';
+    plot.moves.innerHTML = shown.plot?.moves ?? '';
   }
-
-  const turnedFrom = (origin, direction) => {
-    const { right, up } = compare(origin, direction);
-    return [right, up];
-  };
-  const plotAt = ([right, up]) => [(right / shown.range) * PLOT, (-up / shown.range) * PLOT].map((v) => v.toFixed(1));
 
   // The move under the playhead: its before and after, or the combo's total once it's over.
   function describeSlot(recording, index) {
     const slot = recording.slots[index];
-    plot.moves.querySelectorAll('[data-move-line]').forEach((g) => g.classList.toggle('now', Number(g.dataset.moveLine) === index));
+    shown.plot?.highlight(plot.moves, index);
     if (!slot) {
       plot.text.innerHTML =
         index < 0
@@ -324,14 +303,12 @@ export function createMovePanel(elements, actions) {
 
       // The plot: the heading's trail up to now, and where it is now.
       once('trail', tick, () => {
-        const points = [];
-        for (let i = 0; i <= tick; i += TRAIL_EVERY) if (frames[i].turned) points.push(plotAt([frames[i].turned.right, frames[i].turned.up]).join(','));
-        plot.trail.setAttribute('points', points.join(' '));
-        plot.live.style.display = frame.turned ? '' : 'none';
-        if (frame.turned) {
-          const [x, y] = plotAt([frame.turned.right, frame.turned.up]);
-          plot.live.setAttribute('cx', x);
-          plot.live.setAttribute('cy', y);
+        plot.trail.setAttribute('points', shown.plot?.trail(tick) ?? '');
+        const at = shown.plot?.live(tick);
+        plot.live.style.display = at ? '' : 'none';
+        if (at) {
+          plot.live.setAttribute('cx', at[0]);
+          plot.live.setAttribute('cy', at[1]);
         }
       });
     },

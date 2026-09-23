@@ -1,9 +1,13 @@
 import * as THREE from 'three';
 import { angles } from './heading.js';
+import { comboPlot } from './combo-plot.js';
 
 // A live readout of where the car is going. The scope looks straight ahead from the start (+X at the centre):
 // a point's distance from the centre is its angle from ahead, and its direction is where it lies,
 // +Y (right) and +Z (up). The gizmo shows the X, Y and Z axes as the camera sees them.
+//
+// Following a recorded combo, it shows the combo plot instead: centred on where the combo started, one zoom for the
+// whole combo, each move from before to after, and the heading's trail up to the playhead.
 const RADIUS = 88;
 const RANGES = [15, 30, 60, 120, 180];
 const TRAIL_TICKS = 720;
@@ -25,6 +29,7 @@ const MARKUP = `
   <text class="edge" x="${RADIUS + 5}" y="3">+Y</text><text class="edge" x="${-RADIUS - 5}" y="3" text-anchor="end">−Y</text>
   <text class="edge" y="${-RADIUS - 4}" text-anchor="middle">+Z</text><text class="edge" y="${RADIUS + 10}" text-anchor="middle">−Z</text>
   <polyline class="trail"/>
+  <g class="path"></g>
   <circle class="spin" r="5"/>
   <circle class="nose" r="2.5"/>
   <circle class="heading" r="4.5"/>
@@ -47,6 +52,7 @@ export function createGauge(root) {
   const $ = (selector) => root.querySelector(selector);
   const dots = { heading: $('.heading'), nose: $('.nose'), spin: $('.spin') };
   const trailLine = $('.trail');
+  const path = $('.path');
   const rings = [1, 2].map((i) => $(`[data-ring="${i}"]`));
   const ringLabels = [1, 2, 3].map((i) => $(`[data-ring-label="${i}"]`));
   const axes = AXES.map((axis) => ({ ...axis, group: $(`[data-axis="${axis.label}"]`) }));
@@ -54,6 +60,8 @@ export function createGauge(root) {
   const trail = [];
   let range = RANGES[0];
   let shownRange = null;
+  let combo = null;
+  let plot = null;
 
   const write = (key, text) => {
     if (outputs[key].textContent !== text) outputs[key].textContent = text;
@@ -61,6 +69,7 @@ export function createGauge(root) {
   const degrees = (v) => `${v > 0.05 ? '+' : v < -0.05 ? '−' : ' '}${Math.abs(v).toFixed(1)}°`;
   const angleFromAhead = (direction) => THREE.MathUtils.radToDeg(Math.acos(THREE.MathUtils.clamp(direction.x, -1, 1)));
 
+  const at = (direction) => (plot ? plot.at(direction) : place(direction).map((v) => v.toFixed(1)));
   function place(direction) {
     const r = (Math.min(angleFromAhead(direction), range) / range) * RADIUS;
     const side = Math.hypot(direction.z, direction.y);
@@ -69,9 +78,9 @@ export function createGauge(root) {
   function show(dot, direction) {
     dot.style.display = direction ? '' : 'none';
     if (!direction) return;
-    const [x, y] = place(direction);
-    dot.setAttribute('cx', x.toFixed(1));
-    dot.setAttribute('cy', y.toFixed(1));
+    const [x, y] = at(direction);
+    dot.setAttribute('cx', x);
+    dot.setAttribute('cy', y);
   }
   function setRange(next) {
     range = next;
@@ -91,14 +100,26 @@ export function createGauge(root) {
     clear() {
       trail.length = 0;
     },
+    // Follows a recorded combo, or goes back to the live heading with null.
+    follow(recording) {
+      combo = recording;
+      plot = combo?.origin ? comboPlot(combo, RADIUS) : null;
+      trail.length = 0;
+      path.innerHTML = plot?.moves ?? '';
+      if (plot) setRange(plot.range);
+    },
     update({ heading, nose, spin, ticks, camera }) {
-      if (heading && (!trail.length || ticks - trail.at(-1).ticks >= TRAIL_EVERY)) trail.push({ ticks, direction: heading.clone() });
-      while (trail.length && ticks - trail[0].ticks > TRAIL_TICKS) trail.shift();
-
-      // Zoom out far enough to hold the trail and the spin axis, and back in once they fit.
-      const widest = Math.max(0, ...trail.map((p) => angleFromAhead(p.direction)), spin ? angleFromAhead(spin.direction) : 0);
-      setRange(RANGES.find((r) => widest * 1.1 <= r) ?? RANGES.at(-1));
-      trailLine.setAttribute('points', trail.map((p) => place(p.direction).map((v) => v.toFixed(1)).join(',')).join(' '));
+      if (plot) {
+        trailLine.setAttribute('points', plot.trail(ticks));
+        plot.highlight(path, combo.frames[ticks].index);
+      } else {
+        if (heading && (!trail.length || ticks - trail.at(-1).ticks >= TRAIL_EVERY)) trail.push({ ticks, direction: heading.clone() });
+        while (trail.length && ticks - trail[0].ticks > TRAIL_TICKS) trail.shift();
+        // Zoom out far enough to hold the trail and the spin axis, and back in once they fit.
+        const widest = Math.max(0, ...trail.map((p) => angleFromAhead(p.direction)), spin ? angleFromAhead(spin.direction) : 0);
+        setRange(RANGES.find((r) => widest * 1.1 <= r) ?? RANGES.at(-1));
+        trailLine.setAttribute('points', trail.map((p) => at(p.direction).join(',')).join(' '));
+      }
       show(dots.heading, heading);
       show(dots.nose, nose);
       show(dots.spin, spin?.direction);

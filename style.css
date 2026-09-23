@@ -693,6 +693,8 @@ em.back { background: var(--blue); }
 .scope .path line { stroke: var(--text); stroke-width: 1.5; }
 .scope .path circle { fill: var(--text); }
 .scope .path .start { fill: none; stroke: var(--text); }
+.scope .path .now line { stroke: var(--heading); stroke-width: 2.5; }
+.scope .path .now circle { fill: var(--heading); }
 .scope .path text { fill: var(--text); font: italic 700 9px var(--display); text-anchor: middle; paint-order: stroke; stroke: var(--night); stroke-width: 3px; }
 .gizmo line { stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
 .gizmo text { fill: currentColor; font: italic 700 10px var(--display); text-anchor: middle; }

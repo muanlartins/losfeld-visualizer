@@ -153,6 +153,7 @@ function setMode(mode) {
   gauge.clear();
   replay.recording = mode === 'moves' ? recordCombo(settings.combo) : null;
   replay.tick = 0;
+  gauge.follow(replay.recording);
   if (replay.recording) showFrame();
   $('moves-group').hidden = mode !== 'moves';
   $('inputs-group').hidden = mode === 'moves';
